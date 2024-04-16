@@ -1,0 +1,35 @@
+/* navbar Klassen */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #383c64;
+      color: #fff;
+      padding: 10px 20px;
+    }
+    
+    .logo img {
+      height: 40px; /* Ändere die Höhe nach Bedarf */
+    }
+    
+    .nav-links {
+      list-style: none;
+      display: flex;
+    }
+    
+    .nav-links li {
+      margin-right: 20px;
+    }
+    
+    .nav-links li:last-child {
+      margin-right: 0;
+    }
+    
+    .nav-links a {
+      text-decoration: none;
+      color: #fff;
+    }
+    
+    .nav-links a:hover {
+      color: #ffd700; /* Ändere die Farbe bei Hover nach Bedarf */
+    }
