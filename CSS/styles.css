@@ -117,7 +117,7 @@ body {
 }
 .copyright-text
 {
-  margin:0
+  padding-left: 350px;
 }
 @media (max-width:991px)
 {
