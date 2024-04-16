@@ -4,6 +4,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    z-index: 0;
   }
   
   
@@ -11,9 +12,21 @@ body {
   max-width: 100%;
   filter: brightness(90%)
   }
-.content-area {
-    padding-top: 100px; /* Adjust this value to add space between navbar and content */
-    padding-bottom: 100px; /* Adjust this value to add space between content and footer */
+
+.container {
+  display: flex;
+  justify-content: center; /* Zentriert die Container horizontal */
+  z-index: 10;
+}
+
+.aktuelles-container {
+  /* position: absolute; */
+  height: 500px;
+  background-color: #383c64;
+  color: white;
+  width: 300px; /* Breite der Container anpassen */
+  border: 1px solid #ccc; /* Optional: Umrandung hinzufügen */
+  padding: 20px; /* Optional: Innenabstand anpassen */
 }
 
 
