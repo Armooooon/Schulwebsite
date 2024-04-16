@@ -16,9 +16,10 @@
       list-style: none;
       display: flex;
       padding-top: 25px;
-      font-size: x-large;
+      font-size: large;
       margin: auto;
       padding-bottom: 20px;
+      padding: 10px;
       
     }
     
