@@ -6,22 +6,38 @@
     <title>Document</title>
     <link rel="stylesheet" href="../CSS/styles.css">
     <link rel="stylesheet" href="../CSS/kontakt.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/bootstrap.css">
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../JS/bootstrap.js">
 </head>
 <body>
-        <!-------- Start Navbar ------->
-        <nav class="navbar">
-            <div class="logo">
-              <img src="dein_logo.png" alt="Logo">
-            </div>
-            <ul class="nav-links">
-              <li><a href="#">Startseite</a></li>
-              <li><a href="#">Über uns</a></li>
-              <li><a href="#">Dienstleistungen</a></li>
-              <li><a href="kontakt.HTML">Kontakt</a></li>
-            </ul>
-          </nav>
-    <!-------- End Navbar------->
+  
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+          <img src="dein_logo.png" alt="Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+              <li class="nav-item active">
+                  <a class="nav-link" href="#">Startseite</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Über uns</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Dienstleistungen</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="kontakt.HTML">Kontakt</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+  <!-- End Navbar -->
 
 <!--The div element for the map -->
 <div id="map">
@@ -33,23 +49,25 @@
 <div class="contactTitle">
     <h1>Kontakt</h1>
 </div>
+<div class="flexBoxContactContent">
+        <div class="contactContent1">
+        <p> Ich bin ein Textabschnitt. Klicken Sie hier zum Bearbeiten und um Ihren eigenen Text hinzuzufügen.  </p>
+        </div>
+        <div class="contactContent2">
+        	<p>Bei Fragen erreichen Sie uns</p>
 
-<div class="contactContent1">
-    <p> Ich bin ein Textabschnitt. Klicken Sie hier zum Bearbeiten und um Ihren eigenen Text hinzuzufügen.  </p>
-<div class="contactContent2">
-    Bei Fragen erreichen Sie uns
-
-    von 8:30 bis 15:30 Uhr unter +49 (0) 456 7890
+        <p>von 8:30 bis 15:30 Uhr unter +49 (0) 456 7890</p>
     
-    Lindenstraße 507
+        <p>Lindenstraße 507</p>
     
-    10555 Berlin
+        <p>10555 Berlin</p> 
     
-     
+        <hr>
     
-    Tel.: +49 (0) 456 7890
+        <p>Tel.: +49 (0) 456 7890</p>
     
-    E-Mail-Adresse: info@website.com
+        <p>E-Mail-Adresse: info@website.com</p>
+        </div>
 </div>
 
 
