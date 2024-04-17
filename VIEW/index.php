@@ -5,8 +5,8 @@
 <!-------Start Aktuelles------->
 <div class="container">
   <div class="aktuelles-container">
-      <h2>Neuigkeiten</h2>
-      <p>Hier sind Neuigkeiten zu finden. Was eine Überraschung!</p>
+    <img src="../IMG/teacher.jpg">
+      
   </div>
   <div class="aktuelles-container">
       <h2>Aktuelle Veranstalltungen</h2>
