@@ -70,10 +70,7 @@
    border-radius:100%;
    background-color:#33353d
  }
- .copyright-text
- {
-   padding-left: 350px;
- }
+ 
  @media (max-width:991px)
  {
    .site-footer [class^=col-]
