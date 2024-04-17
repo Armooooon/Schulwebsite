@@ -42,4 +42,31 @@
     background-color: #383c64;  /* Modern Browsers */
   }
 
+  @media screen and (max-width: 750px) {
+    .contactContent1,
+    .contactContent2 {
+      font-size: 0.8em; /* Setze die Schriftgröße auf 80% */
+      max-width: 40%; /* Setze die Breite der Kontaktcontainer auf 100% */
+    }
   
+
+  @media screen and (max-width: 700px) {
+    .contactContent1,
+    .contactContent2 {
+      font-size: 0.8em; /* Setze die Schriftgröße auf 80% */
+      max-width: 65%; /* Setze die Breite der Kontaktcontainer auf 100% */
+    }
+  
+    .flexBoxContactContent {
+      height: auto; /* Setze die Höhe automatisch, um den Inhalt zu passen */
+      flex-wrap: wrap; /* Erlaube den Kontaktcontainern, auf eine neue Zeile zu gehen, wenn der Platz nicht ausreicht */
+      gap: 10px; /* Reduziere den Platz zwischen den Kontaktcontainern */
+      max-width: 100%;
+    }
+  
+    .site-footer {
+      margin-top: 20px; /* Füge etwas Abstand zwischen dem Footer und dem Kontaktbereich hinzu */
+    }
+  }
+  
+}
