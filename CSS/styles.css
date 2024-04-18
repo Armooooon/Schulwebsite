@@ -30,4 +30,17 @@ body {
   padding: 20px; /* Optional: Innenabstand anpassen */
 }
 
+.headline, .headlineText {
+    color: rgb(52,63,100);
+}
+
+.headline {
+    margin-top:50px;
+    margin-bottom: 25px;
+}
+
+.headlineText {
+    margin-bottom: 25px;
+    font-size: 20px;
+}
 

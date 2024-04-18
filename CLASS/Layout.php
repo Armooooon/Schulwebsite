@@ -156,4 +156,26 @@ class Layout {
       </html>  
         <?php
     }
+    
+    public static function IMGCarousel($imgpath, $captionTitle = '', $captionText = '') {
+      ?>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="IMG/<?php echo $imgpath; ?>" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+                <?php
+                    if (!empty($captionTitle)) {
+                        echo '<h5>'.$captionTitle.'</h5>';
+                    }
+                    if (!empty($captionText)) {
+                        echo '<p>'.$captionText.'</p>';
+                    }
+                ?>
+            </div>
+          </div>
+        </div>
+      </div>
+      <?php
+    }
 }
