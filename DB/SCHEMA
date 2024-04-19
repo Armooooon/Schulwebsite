@@ -1,0 +1,41 @@
+CREATE DATABASE Pestalozzi;
+
+USE Pestalozzi;
+
+CREATE SCHEMA IF NOT EXISTS SchulWebsite;
+
+CREATE DATABASE if not exists Pestalozzi;
+
+USE Pestalozzi;
+
+CREATE TABLE aktuelles (
+  id int NOT NULL,
+  image varchar(255) NOT NULL,
+  title varchar(255) NOT NULL,
+  beschreibung varchar(255) NOT NULL
+);
+
+CREATE table essensplan (
+id int not null,
+essensplan varchar(255) not null,
+essenplan2 varchar(255) not null
+);
+
+Create table konferenz(
+id int not null,
+konferenzDatum date not null
+);
+
+Create table schueler(
+id int not null,
+schuelerAnzahl int not null
+);
+
+INSERT INTO aktuelles (id, image, title, beschreibung)
+VALUES
+  (1, 'image1.jpg', 'Aktuelles 1', 'Beschreibung 1'),
+  (2, 'image2.jpg', 'Aktuelles 2', 'Beschreibung 2'),
+  (3, 'image3.jpg', 'Aktuelles 3', 'Beschreibung 3'),
+  (4, 'image4.jpg', 'Aktuelles 4', 'Beschreibung 4'),
+  (5, 'image5.jpg', 'Aktuelles 5', 'Beschreibung 5'); 
+
