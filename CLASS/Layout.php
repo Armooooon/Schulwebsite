@@ -137,11 +137,11 @@ class Layout {
               <div class="col-xs-6 col-md-3">
                 <h6>Adresse</h6>
                 <ul class="footer-links">
-                  <li><a href="http://scanfcode.com/about/">Schützenstraße 9</a></li>
-                  <li><a href="http://scanfcode.com/contact/">17109 Demmin</a></li>
-                  <li><a href="http://scanfcode.com/contribute-at-scanfcode/"></a></li>
-                  <li><a href="http://scanfcode.com/privacy-policy/"></a></li>
-                  <li><a href="http://scanfcode.com/sitemap/"></a></li>
+                  <li>Schützenstraße 9</li>
+                  <li>17109 Demmin</li>
+                  
+                  
+                  
                 </ul>
               </div>
             </div>
