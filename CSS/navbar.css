@@ -57,7 +57,7 @@ nav .wrapper {
 }
 .nav-links .drop-menu{
   position: absolute;
-  background: #242526;
+  background: #90001c;
   width: 280px;
   line-height: 45px;
   top: 85px;
@@ -104,7 +104,7 @@ nav .wrapper {
   
 }
 .row .mega-links li a:hover{
-  color: #40001c;
+  color: #848d93; 
 
 }
 .wrapper .btn{
@@ -130,7 +130,7 @@ nav .wrapper {
     max-width: 350px;
     top: 0;
     left: -100%;
-    background: #848d93;
+    background: #90001c;
     display: block;
     padding: 50px 10px;
     line-height: 50px;
@@ -197,7 +197,7 @@ nav .wrapper {
     transition: all 0.3s ease;
   }
   .nav-links .mobile-item:hover{
-    background:#40001c;
+    background:#848d93; 
   }
   .drop-menu li{
     margin: 0;
