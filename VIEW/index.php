@@ -1,5 +1,5 @@
 <?php Layout::Header("Kontakt"); ?>
-<?php require "php/functions.php"?>
+
 <img class="LandingpagePicture" src="IMG/classroom.jpg" alt="Classroom-picture">
 
 <!---Start grid icons(Nick)--->
