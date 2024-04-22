@@ -25,75 +25,87 @@ class Layout {
         <body>
 
             <!-- Start Navbar -->
-            <nav class="navbar navbar-expand-lg navbar-dark">
-              <a class="navbar-brand" href="index.php">
-                  <img src="dein_logo.png" alt="Logo">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav">
-                      <!--li class="nav-item active">
-                          <a class="nav-link" href="index.php">Startseite</a>
-                      </li-->
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Schule
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="lehrkraefte.php">Lehrkräfte</a></li>
-                          <li><a class="dropdown-item" href="klassen.php">Klassen</a></li>
-                          <li><a class="dropdown-item" href="stundenplan.php">Stundenplan</a></li>
-                          <li><a class="dropdown-item" href="essensplan.php">Essensplan</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Biografie
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="schulgeschichte.php">Schulgeschichte</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Aktuelles
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="aktuelles.php">Aktuelle Nachrichten, Ankündigungen und Ereignisse der Schule</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Produktives
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="lernen.php">Lernen</a></li>
-                          <li><a class="dropdown-item" href="10br.php">10 BR</a></li>
-                          <li><a class="dropdown-item" href="schulsozialarbeit.php">Schulsozialarbeit</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Eltern
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="foerderverein.php">Förderverein</a></li>
-                        </ul>
-                      </li>
-                      <!--li class="nav-item">
-                          <a class="nav-link" href="#">Dienstleistungen</a>
-                      </li-->
-                      <li class="nav-item">
-                          <a class="nav-link" href="kontakt.php">Kontakt</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="impressum.php">Impressum</a>
-                      </li>
+            <nav>
+      <div class="wrapper">
+    
+        <input type="radio" name="slider" id="menu-btn">
+        <input type="radio" name="slider" id="close-btn">
+        <ul class="nav-links">
+          <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Aktuelles</a></li>
+        
+          <li>
+            <a href="#" class="desktop-item">Unsere&nbspSchule</a>
+            <input type="checkbox" id="showDrop">
+            <label for="showDrop" class="mobile-item">Unsere&nbspSchule</label>
+            <ul class="drop-menu">
+              <li><a href="#">Über uns</a></li>
+              <li><a href="#">Schulstruktur</a></li>
+              <li><a href="#">Schulprogramm</a></li>
+              <li><a href="#">Hausordnung</a></li>
+            </ul>
+          </li> </li>
+     
+       <li> <a href="#" class="desktop-item">Schulsozialarbeit</a>
+            <input type="checkbox" id="showDrop">
+            <label for="showDrop" class="mobile-item">Schulsozialarbeit</label>
+            <ul class="drop-menu">
+              <li><a href="#">über mich</a></li>
+              <li><a href="#">Sozialer Trainingsraum</a></li>
+              <li><a href="#">Projekte</a></li>
+            </ul>
+
+            <li> <a href="#" class="desktop-item">Mitwirkungsgremien</a>
+              <input type="checkbox" id="showDrop">
+              <label for="showDrop" class="mobile-item">Mitwirkungsgremien</label>
+              <ul class="drop-menu">
+                <li><a href="#">Schulkonferenz</a></li>
+                <li><a href="#">Elternrat</a></li>
+                <li><a href="#">Schulsprecher</a></li>
+              </ul>
+
+              <li> <a href="#" class="desktop-item">Berufsorentierung/Praktika</a>
+                <input type="checkbox" id="showDrop">
+                <label for="showDrop" class="mobile-item">Berufsorentierung/Praktika</label>
+                <ul class="drop-menu">
+                  <li><a href="#">Agentur für Arbeit</a></li>
+                  <li><a href="#">Praktika</a></li>
+                  <li><a href="#">Messen & Co</a></li>
+                </ul>
+
+                <li> <a href="#" class="desktop-item">Föderverein</a>
+                  <input type="checkbox" id="showDrop">
+                  <label for="showDrop" class="mobile-item">Föderverein</label>
+                  <ul class="drop-menu">
+                    <li><a href="#">Vorstand</a></li>
+                    <li><a href="#">Unterstütze Projekte</a></li>
+                    <li><a href="#">Mitgliederantrag</a></li>
                   </ul>
-              </div>
-          </nav>
+
+                  <li> <a href="#" class="desktop-item">Schüler/Eltern</a>
+                    <input type="checkbox" id="showDrop">
+                    <label for="showDrop" class="mobile-item">Schüler/Eltern</label>
+                    <ul class="drop-menu">
+                      <li><a href="#">Vertauens LK</a></li>
+                      <li><a href="#">FAQ</a></li>
+                      <li><a href="#">APPS der Lernplattform</a></li>
+                      <li><a href="#">Downloads</a></li>
+                    </ul>
+
+                      <li><a href="#">Essensversorgung</a></li>
+        </ul>
+        <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+      </div> 
+
+      <div class="navlogo">
+       
+        <img src="Python.png" alt="Logo" class="navlogo">
+  </div>
+
+
+    </nav>
+    
           <!-- End Navbar -->
         <?php
     }
