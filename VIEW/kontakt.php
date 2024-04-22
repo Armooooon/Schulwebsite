@@ -1,10 +1,11 @@
-<?php Layout::Header("Kontakt"); ?>
 
+<?php Layout::Header("Kontakt"); ?>
+<!--Kontakt.PHP/HTML by Aron Halaoui -->
 <!--The div element for the map -->
 <div id="map">
     <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.57064588385!2d13.050777000000002!3d53.90383489999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ab855ea254b6f7%3A0x506e23b2619e2883!2sPestalozzi-Schule!5e0!3m2!1sde!2sde!4v1713268140674!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
-
+<!--END- div element for the map -->
 <div class="content-area"></div>
 
 <div class="contactTitle">

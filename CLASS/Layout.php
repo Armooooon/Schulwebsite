@@ -25,75 +25,87 @@ class Layout {
         <body>
 
             <!-- Start Navbar -->
-            <nav class="navbar navbar-expand-lg navbar-dark">
-              <a class="navbar-brand" href="index.php">
-                  <img src="dein_logo.png" alt="Logo">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav">
-                      <!--li class="nav-item active">
-                          <a class="nav-link" href="index.php">Startseite</a>
-                      </li-->
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Schule
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="lehrkraefte.php">Lehrkräfte</a></li>
-                          <li><a class="dropdown-item" href="klassen.php">Klassen</a></li>
-                          <li><a class="dropdown-item" href="stundenplan.php">Stundenplan</a></li>
-                          <li><a class="dropdown-item" href="essensplan.php">Essensplan</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Biografie
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="schulgeschichte.php">Schulgeschichte</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Aktuelles
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="aktuelles.php">Aktuelle Nachrichten, Ankündigungen und Ereignisse der Schule</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Produktives
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="lernen.php">Lernen</a></li>
-                          <li><a class="dropdown-item" href="10br.php">10 BR</a></li>
-                          <li><a class="dropdown-item" href="schulsozialarbeit.php">Schulsozialarbeit</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Eltern
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="foerderverein.php">Förderverein</a></li>
-                        </ul>
-                      </li>
-                      <!--li class="nav-item">
-                          <a class="nav-link" href="#">Dienstleistungen</a>
-                      </li-->
-                      <li class="nav-item">
-                          <a class="nav-link" href="kontakt.php">Kontakt</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="impressum.php">Impressum</a>
-                      </li>
+            <nav>
+      <div class="wrapper">
+    
+        <input type="radio" name="slider" id="menu-btn">
+        <input type="radio" name="slider" id="close-btn">
+        <ul class="nav-links">
+          <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Aktuelles</a></li>
+        
+          <li>
+            <a href="#" class="desktop-item">Unsere&nbspSchule</a>
+            <input type="checkbox" id="showDrop1">
+            <label for="showDrop1" class="mobile-item">Unsere&nbspSchule</label>
+            <ul class="drop-menu">
+              <li><a href="#">Über&nbspuns</a></li>
+              <li><a href="#">Schulstruktur</a></li>
+              <li><a href="#">Schulprogramm</a></li>
+              <li><a href="#">Hausordnung</a></li>
+            </ul>
+          </li> </li>
+     
+       <li> <a href="#" class="desktop-item">Schulsozialarbeit</a>
+            <input type="checkbox" id="showDrop2">
+            <label for="showDrop2" class="mobile-item">Schulsozialarbeit</label>
+            <ul class="drop-menu">
+              <li><a href="#">Über&nbspmich</a></li>
+              <li><a href="#">Sozialer&nbspTrainingsraum</a></li>
+              <li><a href="#">Projekte</a></li>
+            </ul>
+
+            <li> <a href="#" class="desktop-item">Mitwirkungsgremien</a>
+              <input type="checkbox" id="showDrop2">
+              <label for="showDrop2" class="mobile-item">Mitwirkungsgremien</label>
+              <ul class="drop-menu">
+                <li><a href="#">Schulkonferenz</a></li>
+                <li><a href="#">Elternrat</a></li>
+                <li><a href="#">Schulsprecher</a></li>
+              </ul>
+
+              <li> <a href="#" class="desktop-item">Berufsorentierung/Praktika</a>
+                <input type="checkbox" id="showDrop3">
+                <label for="showDrop3" class="mobile-item">Berufsorentierung/Praktika</label>
+                <ul class="drop-menu">
+                  <li><a href="#">Agentur&nbspfür&nbspArbeit</a></li>
+                  <li><a href="#">Praktika</a></li>
+                  <li><a href="#">Messen & Co</a></li>
+                </ul>
+
+                <li> <a href="#" class="desktop-item">Föderverein</a>
+                  <input type="checkbox" id="showDrop4">
+                  <label for="showDrop4" class="mobile-item">Föderverein</label>
+                  <ul class="drop-menu">
+                    <li><a href="#">Vorstand</a></li>
+                    <li><a href="#">Unterstütze&nbspProjekte</a></li>
+                    <li><a href="#">Mitgliederantrag</a></li>
                   </ul>
-              </div>
-          </nav>
+
+                  <li> <a href="#" class="desktop-item">Schüler/Eltern</a>
+                    <input type="checkbox" id="showDrop5">
+                    <label for="showDrop5" class="mobile-item">Schüler/Eltern</label>
+                    <ul class="drop-menu">
+                      <li><a href="#">Vertauens&nbspLK</a></li>
+                      <li><a href="#">FAQ</a></li>
+                      <li><a href="#">APPS&nbspder&nbspLernplattform</a></li>
+                      <li><a href="#">Downloads</a></li>
+                    </ul>
+
+                      <li><a href="#">Essensversorgung</a></li>
+        </ul>
+        <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+      </div> 
+
+      <div class="navlogo">
+       
+        <img src="Python.png" alt="Logo" class="navlogo">
+  </div>
+
+
+    </nav>
+    
           <!-- End Navbar -->
         <?php
     }
@@ -113,23 +125,23 @@ class Layout {
               <div class="col-xs-6 col-md-3">
                 <h6>Kontakt</h6>
                 <ul class="footer-links">
-                  <li><a href="http://scanfcode.com/category/c-language/">Schulsekretariat: Frau Weißhoff</a></li>
-                  <li><a href="http://scanfcode.com/category/front-end-development/">Telefon: 03998/27110</a></li>
-                  <li><a href="http://scanfcode.com/category/back-end-development/">Telefax: 03998/271115</a></li>
-                  <li><a href="http://scanfcode.com/category/java-programming-language/">E-Mail: pestalozzischule@demmin.de</a></li>
-                  <li><a href="http://scanfcode.com/category/android/">Schulleitung: Frau Dr. M. Brüchner</a></li>
-                  <li><a href="http://scanfcode.com/category/templates/">Sprechzeiten: Montag bis Freitag von 07:00 Uhr bis 13:00 Uhr</a></li>
+                  <li>Schulsekretariat: Frau Weißhoff</li>
+                  <li>Telefon: 03998/27110</a></li>
+                  <li>Telefax: 03998/271115</a></li>
+                  <li>E-Mail: pestalozzischule@demmin.de</a></li>
+                  <li>Schulleitung: Frau Dr. M. Brüchner</a></li>
+                  <li>Sprechzeiten: Montag bis Freitag von 07:00 Uhr bis 13:00 Uhr</a></li>
                 </ul>
               </div>
 
               <div class="col-xs-6 col-md-3">
                 <h6>Adresse</h6>
                 <ul class="footer-links">
-                  <li><a href="http://scanfcode.com/about/">Schützenstraße 9</a></li>
-                  <li><a href="http://scanfcode.com/contact/">17109 Demmin</a></li>
-                  <li><a href="http://scanfcode.com/contribute-at-scanfcode/"></a></li>
-                  <li><a href="http://scanfcode.com/privacy-policy/"></a></li>
-                  <li><a href="http://scanfcode.com/sitemap/"></a></li>
+                  <li>Schützenstraße 9</li>
+                  <li>17109 Demmin</li>
+                  
+                  
+                  
                 </ul>
               </div>
             </div>
