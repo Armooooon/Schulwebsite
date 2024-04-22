@@ -34,7 +34,7 @@
 </div>
 <hr>
 
-<!-------Start Aktuelles(Nick)------->
+<!-------Start Aktuelles(Jared)------->
 <div class="container">
   <div class="aktuelles-container">
     <img src="./IMG/teacher.jpg">
@@ -48,7 +48,7 @@
 </div>
 <!-------End Aktuelles------->
 <hr>
-<!--Begin kontakt section()-->
+<!--Begin kontakt section(Nick)-->
 <section id="kontakt" class="kontakt">
   <div><h2 style="text-align: center;">Kontakt</h2></div>
   <div class="contact-card" styles="  display: flex; flex-wrap: wrap; gap: 20px; margin: 20px 0;">
