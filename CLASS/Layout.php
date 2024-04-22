@@ -125,12 +125,12 @@ class Layout {
               <div class="col-xs-6 col-md-3">
                 <h6>Kontakt</h6>
                 <ul class="footer-links">
-                  <li><a href="http://scanfcode.com/category/c-language/">Schulsekretariat: Frau Weißhoff</a></li>
-                  <li><a href="http://scanfcode.com/category/front-end-development/">Telefon: 03998/27110</a></li>
-                  <li><a href="http://scanfcode.com/category/back-end-development/">Telefax: 03998/271115</a></li>
-                  <li><a href="http://scanfcode.com/category/java-programming-language/">E-Mail: pestalozzischule@demmin.de</a></li>
-                  <li><a href="http://scanfcode.com/category/android/">Schulleitung: Frau Dr. M. Brüchner</a></li>
-                  <li><a href="http://scanfcode.com/category/templates/">Sprechzeiten: Montag bis Freitag von 07:00 Uhr bis 13:00 Uhr</a></li>
+                  <li>Schulsekretariat: Frau Weißhoff</li>
+                  <li>Telefon: 03998/27110</a></li>
+                  <li>Telefax: 03998/271115</a></li>
+                  <li>E-Mail: pestalozzischule@demmin.de</a></li>
+                  <li>Schulleitung: Frau Dr. M. Brüchner</a></li>
+                  <li>Sprechzeiten: Montag bis Freitag von 07:00 Uhr bis 13:00 Uhr</a></li>
                 </ul>
               </div>
 
