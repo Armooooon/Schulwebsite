@@ -4,7 +4,7 @@ nav {
   position: fixed;
   display: flex;
   top: 0;
-  background: #848d93;
+  background: #90001c;
   z-index: 100;
   align-items: center;
   justify-content: space-between;
@@ -46,11 +46,11 @@ nav .wrapper {
 }
 
 .nav-links li a:hover {
-  background-color: rgba(255, 255, 255, 0.1); 
+  background-color: #848d93; 
 }
 
 .nav-links li a:hover{
-  background: #40001c;
+  background: #848d93;
 }
 .nav-links .mobile-item{
   display: none;
