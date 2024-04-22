@@ -40,7 +40,7 @@ class Layout {
             <input type="checkbox" id="showDrop">
             <label for="showDrop" class="mobile-item">Unsere&nbspSchule</label>
             <ul class="drop-menu">
-              <li><a href="#">Über uns</a></li>
+              <li><a href="#">Über&nbspuns</a></li>
               <li><a href="#">Schulstruktur</a></li>
               <li><a href="#">Schulprogramm</a></li>
               <li><a href="#">Hausordnung</a></li>
@@ -51,8 +51,8 @@ class Layout {
             <input type="checkbox" id="showDrop">
             <label for="showDrop" class="mobile-item">Schulsozialarbeit</label>
             <ul class="drop-menu">
-              <li><a href="#">über mich</a></li>
-              <li><a href="#">Sozialer Trainingsraum</a></li>
+              <li><a href="#">Über&nbspmich</a></li>
+              <li><a href="#">Sozialer&nbspTrainingsraum</a></li>
               <li><a href="#">Projekte</a></li>
             </ul>
 
@@ -69,7 +69,7 @@ class Layout {
                 <input type="checkbox" id="showDrop">
                 <label for="showDrop" class="mobile-item">Berufsorentierung/Praktika</label>
                 <ul class="drop-menu">
-                  <li><a href="#">Agentur für Arbeit</a></li>
+                  <li><a href="#">Agentur&nbspfür&nbspArbeit</a></li>
                   <li><a href="#">Praktika</a></li>
                   <li><a href="#">Messen & Co</a></li>
                 </ul>
@@ -79,7 +79,7 @@ class Layout {
                   <label for="showDrop" class="mobile-item">Föderverein</label>
                   <ul class="drop-menu">
                     <li><a href="#">Vorstand</a></li>
-                    <li><a href="#">Unterstütze Projekte</a></li>
+                    <li><a href="#">Unterstütze&nbspProjekte</a></li>
                     <li><a href="#">Mitgliederantrag</a></li>
                   </ul>
 
@@ -87,9 +87,9 @@ class Layout {
                     <input type="checkbox" id="showDrop">
                     <label for="showDrop" class="mobile-item">Schüler/Eltern</label>
                     <ul class="drop-menu">
-                      <li><a href="#">Vertauens LK</a></li>
+                      <li><a href="#">Vertauens&nbspLK</a></li>
                       <li><a href="#">FAQ</a></li>
-                      <li><a href="#">APPS der Lernplattform</a></li>
+                      <li><a href="#">APPS&nbspder&nbspLernplattform</a></li>
                       <li><a href="#">Downloads</a></li>
                     </ul>
 
@@ -102,8 +102,6 @@ class Layout {
        
         <img src="Python.png" alt="Logo" class="navlogo">
   </div>
-
-
     </nav>
     
           <!-- End Navbar -->
