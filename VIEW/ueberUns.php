@@ -1,10 +1,8 @@
 <?php Layout::Header("Über uns"); ?>
 
-<h1>date_date_seth</h1>
-<h1>adasdasd</h1>
-<div class="container text-center" style="padding-top: 2rem; gap:10px; ">
+<div class="container" style="padding-top: 2rem; gap:10px; margin-top:2rem;">
   <div class="row">
-    <h1>Über uns</h1>
+    <h1 class="text-center">Über uns</h1>
     <div class="col" style="padding: 20px;">
       <div class="ueberUnsText">
         <p>Willkommen auf der Webseite der Pestalozzi-Schule Demmin, einer Einrichtung, die sich dem ganzheitlichen Lernen und der persönlichen Entwicklung jedes einzelnen Schülers widmet. Unsere Schule, benannt nach dem Pädagogen Johann Heinrich Pestalozzi, steht für eine Bildungsphilosophie, die Wissen, Herz und Hand in Einklang bringt.
@@ -20,9 +18,7 @@
     </div>
     <div class="col" style="padding: 20px;">
       <img src="./IMG/pestaloziSchulfoto.jpg" style="width: 700px;"  alt="Foto der Schule">
-      <div class="border" style="border: 1px solid #ccc; padding: 10px;">
-        <p>Schule von draußen</p>
-      </div>
+      
     </div>
   </div>
 </div>
