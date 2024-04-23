@@ -57,8 +57,8 @@ class Layout {
             </ul>
 
             <li> <a href="#" class="desktop-item">Mitwirkungsgremien</a>
-              <input type="checkbox" id="showDrop2">
-              <label for="showDrop2" class="mobile-item">Mitwirkungsgremien</label>
+              <input type="checkbox" id="showDrop3">
+              <label for="showDrop3" class="mobile-item">Mitwirkungsgremien</label>
               <ul class="drop-menu">
                 <li><a href="#">Schulkonferenz</a></li>
                 <li><a href="#">Elternrat</a></li>
@@ -66,8 +66,8 @@ class Layout {
               </ul>
 
               <li> <a href="#" class="desktop-item">Berufsorentierung/Praktika</a>
-                <input type="checkbox" id="showDrop3">
-                <label for="showDrop3" class="mobile-item">Berufsorentierung/Praktika</label>
+                <input type="checkbox" id="showDrop4">
+                <label for="showDrop4" class="mobile-item">Berufsorentierung/Praktika</label>
                 <ul class="drop-menu">
                   <li><a href="#">Agentur&nbspfür&nbspArbeit</a></li>
                   <li><a href="#">Praktika</a></li>
@@ -75,8 +75,8 @@ class Layout {
                 </ul>
 
                 <li> <a href="#" class="desktop-item">Föderverein</a>
-                  <input type="checkbox" id="showDrop4">
-                  <label for="showDrop4" class="mobile-item">Föderverein</label>
+                  <input type="checkbox" id="showDrop5">
+                  <label for="showDrop5" class="mobile-item">Föderverein</label>
                   <ul class="drop-menu">
                     <li><a href="#">Vorstand</a></li>
                     <li><a href="#">Unterstütze&nbspProjekte</a></li>
@@ -84,8 +84,8 @@ class Layout {
                   </ul>
 
                   <li> <a href="#" class="desktop-item">Schüler/Eltern</a>
-                    <input type="checkbox" id="showDrop5">
-                    <label for="showDrop5" class="mobile-item">Schüler/Eltern</label>
+                    <input type="checkbox" id="showDrop6">
+                    <label for="showDrop6" class="mobile-item">Schüler/Eltern</label>
                     <ul class="drop-menu">
                       <li><a href="#">Vertauens&nbspLK</a></li>
                       <li><a href="#">FAQ</a></li>
