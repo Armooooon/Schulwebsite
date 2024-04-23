@@ -1,7 +1,7 @@
 /* slawas nav*/
 
 nav {
-  display: flex;
+  position: absolute;
   display: flex;
   top: 0;
   background: #848d93; 
