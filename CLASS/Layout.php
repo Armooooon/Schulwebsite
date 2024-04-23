@@ -25,6 +25,7 @@ class Layout {
         <body>
 
             <!-- Start Navbar -->
+           <header>
             <nav>
       <div class="wrapper">
     
@@ -105,7 +106,7 @@ class Layout {
 
 
     </nav>
-    
+              </header>
           <!-- End Navbar -->
         <?php
     }
