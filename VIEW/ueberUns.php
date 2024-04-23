@@ -17,8 +17,7 @@
       </div>
     </div>
     <div class="col" style="padding: 20px;">
-      <img src="./IMG/pestaloziSchulfoto.jpg" style="width: 700px;"  alt="Foto der Schule">
-      
+      <img src="./IMG/pestaloziSchulfoto.jpg" style="width: 700px;" alt="Foto der Schule">
     </div>
   </div>
 </div>
