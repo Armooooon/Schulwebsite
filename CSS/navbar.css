@@ -195,7 +195,8 @@ nav .wrapper {
   #showDrop2:checked ~ .drop-menu,
   #showDrop3:checked ~ .drop-menu,
   #showDrop4:checked ~ .drop-menu,
-  #showDrop5:checked ~ .drop-menu {
+  #showDrop5:checked ~ .drop-menu,
+  #showDrop6:checked ~ .drop-menu {
     max-height: 100%;
   }
 
