@@ -1,7 +1,8 @@
 <?php Layout::Header("BerufsorinetierungPraktika"); ?>
 
+<img class="LandingpagePicture" src="IMG/classroom.jpg" alt="Classroom-picture">
 
-<div style="padding-top:300px; text-align: center; padding-right: 200px; padding-left: 200px;" >
+<div style="padding-top:100px; text-align: center; padding-right: 200px; padding-left: 200px;" >
     <a href="https://www.arbeitsagentur.de/"><h1 style= align-text: center;> <u>Agentur für Arbeit</u></h1></a>
         <h4>Die Agentur für Arbeit ist eine staatliche Institution in Deutschland, die sich um die Vermittlung von Arbeitsplätzen kümmert und Arbeitssuchenden bei der Jobsuche unterstützt. Sie bietet auch Berufsberatung, Weiterbildungsangebote und finanzielle Unterstützung wie Arbeitslosengeld. Ihr Ziel ist es, die Arbeitslosigkeit zu bekämpfen und die Beschäftigungssituation in Deutschland zu verbessern.</h4>  
 </div>
