@@ -1,5 +1,5 @@
 <?php
-//error_reporting(0);
+//error_reporting(0) (Aron);
 error_reporting(E_ALL);
 
 define('ROOT', 'http://127.0.0.1/schulwebsite');

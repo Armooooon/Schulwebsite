@@ -1,0 +1,69 @@
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+} */
+
+.maintextsu {
+    /* width: 80%; */
+    /* margin: 50px auto; */
+    padding: 100px; /* Innenabstand für den Textblock */
+    text-align: center; /* Text im Block zentrieren */
+    /* border: 1px solid #8B0000; Dunkelrote Rahmen um den Textblock */
+    /* border-radius: 10px; Runde Ecken für den Textblock */
+    background-color: #f2f2f2; /* Hintergrundfarbe für den Textblock */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); Schatten um die Box */
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 60%; /* Ändern der Breite der Tabelle */
+    border-collapse: separate;
+    border-spacing: 0 10px; /* Abstand zwischen den Zellen */
+    margin: 0 auto; /* Tabelle zentrieren */
+    border-radius: 10px; /* Runde Ecken für die Tabelle */
+}
+
+.rounded-border {
+    border: 5px solid #8B0000; /* Dunkelrote Rahmen für Tabellenzellen */
+    padding: 8px;
+    border-collapse: separate;
+    border-spacing: 2px;
+    width: 60%; /* Ändern der Breite der Tabelle */
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+th, td { 
+    padding: 8px;
+    border: 1px solid #8B0000; /* Linien um die Zellen */
+}
+
+th {
+    background-color: #8B0000; /* Dunkelrote Hintergrundfarbe für Tabellenüberschriften */
+    color: white; /* Weiße Schriftfarbe für bessere Lesbarkeit */
+}
+
+td {
+    background-color: #D3D3D3; /* Leichtes Grau für Tabellenzellen-Hintergrund */
+}
+
+
+.text {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 12px; /* Innenabstand für den Text */
+
+    
+}
+
+p {
+    margin: 20px;
+}
