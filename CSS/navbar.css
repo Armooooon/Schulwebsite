@@ -4,7 +4,7 @@ nav {
   position: fixed;
   display: flex;
   top: 0;
-  background: #90001c;
+  background: #848d93; 
   z-index: 100;
   align-items: center;
   justify-content: space-between;
@@ -46,18 +46,18 @@ nav .wrapper {
 }
 
 .nav-links li a:hover {
-  background-color: #848d93; 
+  background-color: #90001c;
 }
 
 .nav-links li a:hover{
-  background: #848d93;
+  background: #90001c;
 }
 .nav-links .mobile-item{
   display: none;
 }
 .nav-links .drop-menu{
   position: absolute;
-  background: #90001c;
+  background: #848d93; 
   width: 280px;
   line-height: 45px;
   top: 85px;
@@ -106,7 +106,7 @@ nav .wrapper {
   
 }
 .row .mega-links li a:hover{
-  color: #848d93; 
+  color: #90001c; 
 
 }
 .wrapper .btn{
@@ -133,7 +133,7 @@ nav .wrapper {
     max-width: 350px;
     top: 0;
     left: -100%;
-    background: #90001c;
+    background: #848d93; 
     display: block;
     padding: 50px 10px;
     line-height: 50px;
@@ -215,7 +215,7 @@ nav .wrapper {
   }
 
   .nav-links .mobile-item:hover{
-    background:#848d93; 
+    background:#90001c; 
   }
 
   .drop-menu li{
