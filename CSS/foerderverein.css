@@ -1,19 +1,13 @@
-/* body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-} */
+/*
+Dieser Code ist von Steven
+*/
 
 .maintextsu {
-    /* width: 80%; */
-    /* margin: 50px auto; */
     padding: 150px; /* Innenabstand für den Textblock */
     padding-top: 150px; /* Innenabstand für den Textblock */
-    text-align: center; /* Text im Block zentrieren */
-    /* border: 1px solid #8B0000; Dunkelrote Rahmen um den Textblock */
-    /* border-radius: 10px; Runde Ecken für den Textblock */
+    text-align: center; /* Text im Block zentrieren */  
     background-color: #f2f2f2; /* Hintergrundfarbe für den Textblock */
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); Schatten um die Box */
+ 
 }
 
 h1 {
