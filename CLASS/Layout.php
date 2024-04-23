@@ -25,6 +25,7 @@ class Layout {
         <body>
 
             <!-- Start Navbar -->
+           <header>
             <nav>
       <div class="wrapper">
     
@@ -100,12 +101,12 @@ class Layout {
 
       <div class="navlogo">
        
-        <img src="../IMG/logo.png" alt="Logo" class="navlogo">
+        <img src="../IMG/Element_1testt.png" alt="Logo" class="navlogo">
   </div>
 
 
     </nav>
-    
+              </header>
           <!-- End Navbar -->
         <?php
     }
