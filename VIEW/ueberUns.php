@@ -1,6 +1,6 @@
 <?php Layout::Header("Über uns"); ?>
-
-<div class="container" style="padding-top: 2rem; gap:10px; margin-top:2rem;">
+<!-- Samir Abdul -->
+<div class="container" style="padding-top: 150px; gap:10px;">
   <div class="row">
     <h1 class="text-center">Über uns</h1>
     <div class="col" style="padding: 20px;">
