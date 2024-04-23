@@ -27,23 +27,22 @@
 </div>
 <!-------End icons------->
 <hr>
-<!--begin über uns(Nick)-->
-<div style="text-align: center;">
-  <h3>Herzlich willkommen auf unserer Seite.</h3>
-  <p>Lorem Ipsumb blahblahblablahblahblahblahblahblahblahblahblahblahbl<br>ahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah<br>blahblahblahblahblahblahblahblahblahblahblahh</p>
-</div>
-<hr>
 
-<!-------Start Aktuelles(Jared)------->
+
+<!-------Start Aktuelles(Nick)------->
+<h2 style="text-align: center;">Aktuelles</h2>
 <div class="container">
-  <div class="aktuelles-container">
-    <img src="./IMG/teacher.jpg">
-      
+  <div class="aktuelles-container" style="width: 400px;">
+    <img src="./IMG/lehrer.webp" style="width: 250px; margin-left: 50px;">
+    <div style="text-align: center;">
+      <h4>Herzlich willkommen auf unserer Seite.</h4>
+      <p>Lorem Ipsumb blahblahblablahblahblahblahblahblahblahblahblahblahblah<br>ahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah<br>blahblahblahblahblahblahblahblahblahblahblahblah</p>
+    </div>
+    <hr>
   </div>
-  <div class="aktuelles-container">
-
-      <h2>Aktuelle Veranstalltungen</h2>
-      <p>Rate mal.. Ja! Hier sind aktuelle Veranstaltungen! WoopWoop!</p>
+  <div class="aktuelles-container" style="width: 400px;">
+    <h3>Aktuelle Veranstaltungen</h3>
+    <p>Rate mal.. Ja! Hier sind aktuelle Veranstaltungen! WoopWoop!</p>
   </div>
 </div>
 <!-------End Aktuelles------->
