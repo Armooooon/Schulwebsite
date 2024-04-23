@@ -32,7 +32,7 @@ nav .wrapper {
 
 .nav-links li {
   list-style: none;
-  margin: 0 5px; 
+  margin: 0 10px; 
 }
 
 .nav-links li a {
@@ -103,7 +103,7 @@ nav .wrapper {
   top: 10px;
 }
 
-@media screen and (max-width: 1555px) {
+@media screen and (max-width: 1867px) {
   .wrapper .btn{
     display: block;
   }
