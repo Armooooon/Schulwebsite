@@ -103,7 +103,7 @@ nav .wrapper {
   top: 10px;
 }
 
-@media screen and (max-width: 1555px) {
+@media screen and (max-width: 970px) {
   .wrapper .btn{
     display: block;
   }

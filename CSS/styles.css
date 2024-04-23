@@ -5,8 +5,7 @@
 @import url(ueberUns.css);
 @import url(schulsozialarbeit.css);
 @import url(foerderverein.css);
-@import url(stellenausschreibung.css);
-@import url(schulkonferenz.css);
+@import url(berufsorinetierungPraktika);
 
 body {
     margin: 0;

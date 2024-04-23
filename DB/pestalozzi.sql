@@ -46,8 +46,8 @@ CREATE TABLE IF NOT EXISTS `Pestalozzi`.`person` (
   `adresse_idadresse` INT NOT NULL,
   `personfunktion_idpersonfunktion` INT NOT NULL,
   PRIMARY KEY (`idperson`),
-  INDEX `fk_person_adresse_idx` (`adresse_idadresse` ASC) VISIBLE,
-  INDEX `fk_person_personfunktion1_idx` (`personfunktion_idpersonfunktion` ASC) VISIBLE,
+  INDEX `fk_person_adresse_idx` (`adresse_idadresse` ASC)  ,
+  INDEX `fk_person_personfunktion1_idx` (`personfunktion_idpersonfunktion` ASC)  ,
   CONSTRAINT `fk_person_adresse`
     FOREIGN KEY (`adresse_idadresse`)
     REFERENCES `Pestalozzi`.`adresse` (`idadresse`)
@@ -70,8 +70,8 @@ CREATE TABLE IF NOT EXISTS `Pestalozzi`.`benutzer` (
   `password` VARCHAR(255) NOT NULL,
   `person_idperson` INT NOT NULL,
   PRIMARY KEY (`idbenutzer`),
-  UNIQUE INDEX `benutzername_UNIQUE` (`benutzername` ASC) VISIBLE,
-  INDEX `fk_benutzer_person1_idx` (`person_idperson` ASC) VISIBLE,
+  UNIQUE INDEX `benutzername_UNIQUE` (`benutzername` ASC) ,
+  INDEX `fk_benutzer_person1_idx` (`person_idperson` ASC) ,
   CONSTRAINT `fk_benutzer_person1`
     FOREIGN KEY (`person_idperson`)
     REFERENCES `Pestalozzi`.`person` (`idperson`)
@@ -90,7 +90,7 @@ CREATE TABLE IF NOT EXISTS `Pestalozzi`.`datei` (
   `hochgeladen_am` DATETIME NULL,
   `benutzer_idbenutzer` INT NOT NULL,
   PRIMARY KEY (`iddatei`),
-  INDEX `fk_datei_benutzer1_idx` (`benutzer_idbenutzer` ASC) VISIBLE,
+  INDEX `fk_datei_benutzer1_idx` (`benutzer_idbenutzer` ASC)  ,
   CONSTRAINT `fk_datei_benutzer1`
     FOREIGN KEY (`benutzer_idbenutzer`)
     REFERENCES `Pestalozzi`.`benutzer` (`idbenutzer`)
@@ -108,7 +108,7 @@ CREATE TABLE IF NOT EXISTS `Pestalozzi`.`essensplan` (
   `bis` DATE NOT NULL,
   `datei_iddatei` INT NOT NULL,
   PRIMARY KEY (`idessensplan`),
-  INDEX `fk_essensplan_datei1_idx` (`datei_iddatei` ASC) VISIBLE,
+  INDEX `fk_essensplan_datei1_idx` (`datei_iddatei` ASC)  ,
   CONSTRAINT `fk_essensplan_datei1`
     FOREIGN KEY (`datei_iddatei`)
     REFERENCES `Pestalozzi`.`datei` (`iddatei`)
@@ -125,7 +125,7 @@ CREATE TABLE IF NOT EXISTS `Pestalozzi`.`elternrat` (
   `titel` VARCHAR(255) NOT NULL,
   `person_idperson` INT NOT NULL,
   PRIMARY KEY (`idelternrat`),
-  INDEX `fk_elternrat_person1_idx` (`person_idperson` ASC) VISIBLE,
+  INDEX `fk_elternrat_person1_idx` (`person_idperson` ASC)  ,
   CONSTRAINT `fk_elternrat_person1`
     FOREIGN KEY (`person_idperson`)
     REFERENCES `Pestalozzi`.`person` (`idperson`)
@@ -167,7 +167,7 @@ CREATE TABLE IF NOT EXISTS `Pestalozzi`.`foerderverein` (
   `person_idperson` INT NOT NULL,
   `status` ENUM('Mitglied', 'Vorstand') NOT NULL,
   PRIMARY KEY (`idfoerderverein`),
-  INDEX `fk_foerdervereinvorstand_person1_idx` (`person_idperson` ASC) VISIBLE,
+  INDEX `fk_foerdervereinvorstand_person1_idx` (`person_idperson` ASC)  ,
   CONSTRAINT `fk_foerdervereinvorstand_person1`
     FOREIGN KEY (`person_idperson`)
     REFERENCES `Pestalozzi`.`person` (`idperson`)
@@ -213,8 +213,8 @@ CREATE TABLE IF NOT EXISTS `Pestalozzi`.`messe_has_termin` (
   `messe_idmesse` INT NOT NULL AUTO_INCREMENT,
   `termin_idtermin` INT NOT NULL,
   PRIMARY KEY (`messe_idmesse`, `termin_idtermin`),
-  INDEX `fk_messe_has_termin_termin1_idx` (`termin_idtermin` ASC) VISIBLE,
-  INDEX `fk_messe_has_termin_messe1_idx` (`messe_idmesse` ASC) VISIBLE,
+  INDEX `fk_messe_has_termin_termin1_idx` (`termin_idtermin` ASC)  ,
+  INDEX `fk_messe_has_termin_messe1_idx` (`messe_idmesse` ASC)  ,
   CONSTRAINT `fk_messe_has_termin_messe1`
     FOREIGN KEY (`messe_idmesse`)
     REFERENCES `Pestalozzi`.`messe` (`idmesse`)
@@ -235,8 +235,8 @@ CREATE TABLE IF NOT EXISTS `Pestalozzi`.`praktikum_has_termin` (
   `praktikum_idpraktikum` INT NOT NULL AUTO_INCREMENT,
   `termin_idtermin` INT NOT NULL,
   PRIMARY KEY (`praktikum_idpraktikum`, `termin_idtermin`),
-  INDEX `fk_praktikum_has_termin_termin1_idx` (`termin_idtermin` ASC) VISIBLE,
-  INDEX `fk_praktikum_has_termin_praktikum1_idx` (`praktikum_idpraktikum` ASC) VISIBLE,
+  INDEX `fk_praktikum_has_termin_termin1_idx` (`termin_idtermin` ASC)  ,
+  INDEX `fk_praktikum_has_termin_praktikum1_idx` (`praktikum_idpraktikum` ASC)  ,
   CONSTRAINT `fk_praktikum_has_termin_praktikum1`
     FOREIGN KEY (`praktikum_idpraktikum`)
     REFERENCES `Pestalozzi`.`praktikum` (`idpraktikum`)
@@ -258,7 +258,7 @@ CREATE TABLE IF NOT EXISTS `Pestalozzi`.`textbaustein` (
   `textbausteintext` VARCHAR(5000) NOT NULL,
   `person_idperson` INT NOT NULL,
   PRIMARY KEY (`idtextbaustein`),
-  INDEX `fk_textbaustein_person1_idx` (`person_idperson` ASC) VISIBLE,
+  INDEX `fk_textbaustein_person1_idx` (`person_idperson` ASC)  ,
   CONSTRAINT `fk_textbaustein_person1`
     FOREIGN KEY (`person_idperson`)
     REFERENCES `Pestalozzi`.`person` (`idperson`)
@@ -275,7 +275,7 @@ CREATE TABLE IF NOT EXISTS `Pestalozzi`.`Schulsprecher` (
   `schulsprecherKlasse` VARCHAR(255) NOT NULL,
   `person_idperson` INT NOT NULL,
   PRIMARY KEY (`idSchulsprecher`),
-  INDEX `fk_Schulsprecher_person1_idx` (`person_idperson` ASC) VISIBLE,
+  INDEX `fk_Schulsprecher_person1_idx` (`person_idperson` ASC)  ,
   CONSTRAINT `fk_Schulsprecher_person1`
     FOREIGN KEY (`person_idperson`)
     REFERENCES `Pestalozzi`.`person` (`idperson`)
@@ -291,8 +291,8 @@ CREATE TABLE IF NOT EXISTS `Pestalozzi`.`termin_has_adresse` (
   `termin_idtermin` INT NOT NULL AUTO_INCREMENT,
   `adresse_idadresse` INT NOT NULL,
   PRIMARY KEY (`termin_idtermin`, `adresse_idadresse`),
-  INDEX `fk_termin_has_adresse_adresse1_idx` (`adresse_idadresse` ASC) VISIBLE,
-  INDEX `fk_termin_has_adresse_termin1_idx` (`termin_idtermin` ASC) VISIBLE,
+  INDEX `fk_termin_has_adresse_adresse1_idx` (`adresse_idadresse` ASC)  ,
+  INDEX `fk_termin_has_adresse_termin1_idx` (`termin_idtermin` ASC)  ,
   CONSTRAINT `fk_termin_has_adresse_termin1`
     FOREIGN KEY (`termin_idtermin`)
     REFERENCES `Pestalozzi`.`termin` (`idtermin`)
