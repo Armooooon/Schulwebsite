@@ -6,13 +6,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/stellenausschreibung.css">
+    <link rel="stylesheet" href="./CSS/stellenausschreibung.css">
     <title>Stellenausschreibungen - Pestalozzi-Schule Demmin</title>
 </head>
 
-<body>
+<body class="alles">
     <main>
-    <div class="container" style="display: block;">
+    <div class="ueber pestalozzi-demmin" style="display: block;">
         <section class="about-school">
             <div class="container" style="display: block;">
             <h2>Über die Pestalozzi-Schule Demmin</h2>
@@ -55,7 +55,7 @@
         </section>
 </div>
     </main>
-    <footer>
+    <footer class=unten>
         <p>Kontakt: <a href="tel:+49000000000">0000-000000</a> | Email: <a href="mailto:info@pestalozzi-demmin.de">info@pestalozzi-demmin.de</a></p>
     </footer>
 </body>
