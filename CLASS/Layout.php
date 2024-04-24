@@ -129,15 +129,15 @@ class Layout
     <div class="container">
         <div class="row text-center">
             <div class="col-md-4">
-                <h6>Stellenausschreibung</h6>
+                <h6><a href="stellenausschreibung.php" style="text-decoration: none; color: black;">Stellenausschreibung</a></h6>
             </div>
 
             <div class="col-md-4">
-                <h6>Kontakt</h6>
+                <h6><a href="#kontakt.php" style="text-decoration: none; color: black;">Kontakt</a></h6>
             </div>
 
             <div class="col-md-4">
-                <h6>Impressum</h6>
+                <h6><a href="impressum.php" style="text-decoration: none; color: black;">Impressum</a></h6>
             </div>
         </div>
         <hr>
@@ -146,7 +146,7 @@ class Layout
         <div class="row">
             <div class="col-md-12 text-center" style="margin-top: 1rem;">
                 <p class="copyright-text">Copyright &copy; 2024 All Rights Reserved by
-                    <a href="#">WA-Nord</a>.
+                    <a href="https://www.wa-nord.de/">WA-Nord</a>.
                 </p>
             </div>
         </div>
