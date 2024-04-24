@@ -1,5 +1,6 @@
-<?php Layout::Header("Schulkonferenz"); ?>
+<?php Layout::Header("Schulkonferenz"); ?>   <!--Begin Mitwirkungsgremien (Ove Kutz)-->
 
+<img class="LandingpagePicture" src="IMG/classroom.jpg" alt="Classroom-picture">
 <div class="container" style="padding-top: 150px;">
     <div class="mitwirkungsgremien">
         <h2>Schulkonferenz</h2>
