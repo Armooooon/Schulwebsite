@@ -12,7 +12,9 @@
 
 <body>
     <main>
+    <div class="container" style="display: block;">
         <section class="about-school">
+            <div class="container" style="display: block;">
             <h2>Über die Pestalozzi-Schule Demmin</h2>
             <p>Die Pestalozzi-Schule Demmin ist eine führende Bildungseinrichtung in der Region, die sich der Förderung der akademischen Exzellenz und der persönlichen Entwicklung ihrer Schülerinnen und Schüler verschrieben hat.</p>
             <p>Unsere Schule bietet ein vielfältiges und ansprechendes Lernumfeld, in dem die Schülerinnen und Schüler nicht nur fachliches Wissen erwerben, sondern auch ihre kreativen, sozialen und sportlichen Fähigkeiten entwickeln können.</p>
@@ -51,6 +53,7 @@
             <!-- Weitere Stellenanzeigen hier einfügen -->
             
         </section>
+</div>
     </main>
     <footer>
         <p>Kontakt: <a href="tel:+49000000000">0000-000000</a> | Email: <a href="mailto:info@pestalozzi-demmin.de">info@pestalozzi-demmin.de</a></p>
