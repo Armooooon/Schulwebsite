@@ -141,7 +141,7 @@ class Layout
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-md-12 text-center" style="margin-top: 1rem;">
                 <p class="copyright-text">Copyright &copy; 2024 All Rights Reserved by
                     <a href="#">WA-Nord</a>.
                 </p>
