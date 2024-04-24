@@ -63,7 +63,7 @@ class Layout
                 <ul class="drop-menu">
                   <li><a href="">Über&nbspmich</a></li>
                   <li><a href="#">Sozialer&nbspTrainingsraum</a></li>
-                  <li><a href="#">Projekte</a></li>
+                  <li><a href="http://127.0.0.1/Schulwebsite/projekte.php">Projekte</a></li>
                 </ul>
 
               <li> <a href="http://127.0.0.1/Schulwebsite/schulkonferenz.php" class="desktop-item">Mitwirkungsgremien</a>
