@@ -100,7 +100,7 @@ class Layout
                   <li><a href="#">Downloads</a></li>
                 </ul>
 
-              <li><a href="#">Essensversorgung</a></li>
+              <li><a href="http://127.0.0.1/Schulwebsite/essensplan.php">Essensversorgung</a></li>
             </ul>
             <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
           </div>
