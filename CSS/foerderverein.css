@@ -2,22 +2,34 @@
 Dieser Code ist von Steven
 */
 
-.maintextsu {
-    padding: 150px; /* Innenabstand für den Textblock */
-    padding-top: 150px; /* Innenabstand für den Textblock */
-    text-align: center; /* Text im Block zentrieren */  
-    background-color: #f2f2f2; /* Hintergrundfarbe für den Textblock */
- 
+/* Allgemeine Stile */
+p {
+    margin: 20px;
 }
 
 h1 {
     margin-top: 20px;
 }
 
+/* Stile für den Haupttextblock */
+.maintextsu {
+    padding: 150px; /* Innenabstand für den Textblock */
+    padding-top: 150px; /* Innenabstand für den Textblock */
+    text-align: center; /* Text im Block zentrieren */  
+    background-color: #f2f2f2; /* Hintergrundfarbe für den Textblock */
+}
+
+/* Stile für den Fließtext im Textblock */
+.textsu {
+    text-align: justify;
+}
+
+/* Stile für den Inhaltsbereich */
 .content {
     margin-bottom: 20px;
 }
 
+/* Stile für Tabellen */
 table {
     width: 60%; /* Ändern der Breite der Tabelle */
     border-collapse: separate;
@@ -26,6 +38,7 @@ table {
     border-radius: 10px; /* Runde Ecken für die Tabelle */
 }
 
+/* Stile für Tabellen mit abgerundeten Rahmen */
 .rounded-border {
     border: 5px solid #8B0000; /* Dunkelrote Rahmen für Tabellenzellen */
     padding: 8px;
@@ -36,29 +49,26 @@ table {
     margin-top: 10px;
 }
 
+/* Stile für Tabellenüberschriften und -zellen */
 th, td { 
     padding: 8px;
     border: 1px solid #8B0000; /* Linien um die Zellen */
 }
 
+/* Stile für Tabellenüberschriften */
 th {
     background-color: #8B0000; /* Dunkelrote Hintergrundfarbe für Tabellenüberschriften */
     color: white; /* Weiße Schriftfarbe für bessere Lesbarkeit */
 }
 
+/* Stile für Tabellenzellen */
 td {
     background-color: #D3D3D3; /* Leichtes Grau für Tabellenzellen-Hintergrund */
 }
 
-
+/* Stile für Textblöcke */
 .text {
     margin-top: 12px;
     margin-bottom: 12px;
     padding: 12px; /* Innenabstand für den Text */
-
-    
-}
-
-p {
-    margin: 20px;
 }

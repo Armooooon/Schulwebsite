@@ -2,7 +2,7 @@
 /*
 Dieser Code ist von Steven
 */
-<div class="container">
+<div class="container" style="display: block;">
 <div class="maintextsu">
     <h1>Unser Förderverein</h1>
     <div class="textsu">
@@ -61,10 +61,27 @@ Dieser Code ist von Steven
                 <p>Im Jahr 2022 wurde das Projekt "Footballcamp" vom Förderverein unterstützt.</p>
                 <p>2023: - Finanzierung des Apfelprojekts in Klasse 3</p>
             </p>
+            <h2>
+                Mitglieder
+                        </h2>
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+    <h4>Antrag</h4>
+    <p>Falls Sie Mitglied werden möchten, können Sie hier den <a href="link_zum_antrag">Antrag</a> herunterladen.</p>
+    </div>
+    <div class="col">
+    <h4>Satzung</h4>
+    <p>Sie können auch die <a href="link_zur_satzung">Satzung</a> des Fördervereins einsehen.</p>
+    </div>
+  </div>
+</div>
+
         </div>
     </div>
 </div>
 </div>
+
 
 
 
