@@ -72,7 +72,7 @@ class Layout
                   <li><a href="#">Schulsprecher</a></li>
                 </ul>
 
-              <li> <a href="http://127.0.0.1/Schulwebsite/berufsorientierung.php" class="desktop-item">Berufsorentierung/Praktika</a>
+              <li> <a href="http://127.0.0.1/Schulwebsite/BerufsorientierungPraktika.php" class="desktop-item">Berufsorentierung/Praktika</a>
                 <input type="checkbox" id="showDrop4">
                 <label for="showDrop4" class="mobile-item">Berufsorentierung/Praktika</label>
                 <ul class="drop-menu">
