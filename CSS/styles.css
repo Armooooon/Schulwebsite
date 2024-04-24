@@ -7,6 +7,8 @@
 @import url(foerderverein.css);
 @import url(berufsorinetierungPraktika);
 @import url(schulkonferenz.css);
+@import url(farbcodes.css);
+@import url(stellenausschreibung.css);
 
 body {
     margin: 0;

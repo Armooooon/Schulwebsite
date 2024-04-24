@@ -1,8 +1,12 @@
-<?php Layout::Header("Projekte"); ?>
-<!--Begin Schulsozialarbeit(Michel Blecken)-->
+Hier ist der Code mit Kommentaren:
+
+```php
+<?php Layout::Header("Projekte"); ?> <!-- Hier wird der Header des Layouts eingefügt und "Projekte" als Titel übergeben -->
+
+<!-- Begin Schulsozialarbeit(Michel Blecken) -->
 <div class="container" style="display: block;">
     <div class="head_p_mb" style="padding-top: 150px;">
-        <h1>Projekte</h1>
+        <h1>Projekte</h1> <!-- Hier wird der Titel "Projekte" innerhalb eines h1-Tags angezeigt -->
     </div>
     <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
@@ -15,24 +19,24 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="./IMG/pestaloziSchulfoto.jpg" class="d-block w-100" alt="...">
+                <img src="./IMG/pestaloziSchulfoto.jpg" class="d-block w-100" alt="..."> <!-- Hier wird ein Bild eingefügt -->
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+                    <h5>First slide label</h5> <!-- Hier wird der Titel des ersten Slides angezeigt -->
+                    <p>Some representative placeholder content for the first slide.</p> <!-- Hier wird der Inhalt des ersten Slides angezeigt -->
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="./IMG/pestaloziSchulfoto.jpg" class="d-block w-100" alt="...">
+                <img src="./IMG/pestaloziSchulfoto.jpg" class="d-block w-100" alt="..."> <!-- Hier wird ein Bild eingefügt -->
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
+                    <h5>Second slide label</h5> <!-- Hier wird der Titel des zweiten Slides angezeigt -->
+                    <p>Some representative placeholder content for the second slide.</p> <!-- Hier wird der Inhalt des zweiten Slides angezeigt -->
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="./IMG/pestaloziSchulfoto.jpg" class="d-block w-100" alt="...">
+                <img src="./IMG/pestaloziSchulfoto.jpg" class="d-block w-100" alt="..."> <!-- Hier wird ein Bild eingefügt -->
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                    <h5>Third slide label</h5> <!-- Hier wird der Titel des dritten Slides angezeigt -->
+                    <p>Some representative placeholder content for the third slide.</p> <!-- Hier wird der Inhalt des dritten Slides angezeigt -->
                 </div>
             </div>
         </div>
@@ -48,4 +52,5 @@
         </button>
     </div>
 </div>
-<?php Layout::Footer();
+
+<?php Layout::Footer(); ?> <!-- Hier wird der Footer des Layouts eingefügt -->
