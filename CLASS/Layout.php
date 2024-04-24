@@ -122,35 +122,34 @@ class Layout
   {
     ?>
       <!-------- Start footer ------->
-  <footer class="site-footer">
+      <footer class="site-footer">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-6">
-          <h6>Stellenausschreibung</h6>
-        </div>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <h6>Stellenausschreibung</h6>
+            </div>
 
-        <div class="col-xs-6 col-md-3">
-          <h6>Kontakt</h6>
-        </div>
+            <div class="col-md-4">
+                <h6>Kontakt</h6>
+            </div>
 
-        <div class="col-xs-6 col-md-3">
-          <h6>Impressum</h6>
+            <div class="col-md-4">
+                <h6>Impressum</h6>
+            </div>
         </div>
-      </div>
-      <hr>
+        <hr>
     </div>
     <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-sm-6 col-xs-12">
-          <p class="copyright-text">Copyright &copy; 2024 All Rights Reserved by
-            <a href="#">WA-Nord</a>.
-          </p>
+        <div class="row">
+            <div class="col-md-12 text-center" style="margin-top: 1rem;">
+                <p class="copyright-text">Copyright &copy; 2024 All Rights Reserved by
+                    <a href="#">WA-Nord</a>.
+                </p>
+            </div>
         </div>
-        </ul>
-      </div>
     </div>
-    </div>
-  </footer>
+</footer>
+
   <!-------- End footer ------->
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
