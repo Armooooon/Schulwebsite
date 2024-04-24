@@ -103,6 +103,18 @@ nav .wrapper {
   top: 10px;
 }
 
+nav input{
+  display: none;
+}
+
+.navlogo{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 0.5vh;
+  right: 2vh;
+}
+
 @media screen and (max-width: 970px) {
   .wrapper .btn{
     display: block;
@@ -211,14 +223,3 @@ nav .wrapper {
   }
 }
 
-nav input{
-  display: none;
-}
-
-.navlogo{
-  height: 100px;
-  width: 100px;
-  position: fixed;
-  top: 0.5vh;
-  right: 2vh;
-}
