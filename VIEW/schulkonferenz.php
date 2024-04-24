@@ -1,27 +1,16 @@
 <?php Layout::Header("Schulkonferenz"); ?>   
 <!--Begin Mitwirkungsgremien (Ove Kutz)-->
 
-<img class="LandingpagePicture" src="IMG/classroom.jpg" alt="Classroom-picture">
-<div class="container" style="padding-top: 50px; padding-bottom: 50px ">
-    <div class="mitwirkungsgremien">
-        
+<div class="container" style="padding-top: 150px;">
+    <div class="col-left">
+        <h1>penis</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam molestias doloremque laborum veritatis, maxime dolores ea adipisci qui, officiis eligendi tempore ex repellat voluptatem! Fugit.</p>
+    </div>
+    <div class="col-right">
+        <h1>penis</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam molestias doloremque laborum veritatis, maxime dolores ea adipisci qui, officiis eligendi tempore ex repellat voluptatem! Fugit.</p>
+    </div>
 
-    </div>
-<div class="container text-center">
-  <div class="row">
-    <div class="col">
-      Column
-    </div>
-    <div class="col">
-      Column
-    </div>
-    <div class="col">
-      Column
-    </div>
-  </div>
 </div>
-
-<div class="clearfix"></div>
-
 
 <?php Layout::Footer();
