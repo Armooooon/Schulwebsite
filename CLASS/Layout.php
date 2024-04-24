@@ -29,7 +29,7 @@ class Layout
 
     <body>
 
-      <!-- Start Navbar -->
+      <!-- Slawas Navbar -->
       <header>
         <nav>
           <div class="wrapper">
