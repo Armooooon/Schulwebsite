@@ -107,7 +107,7 @@ class Layout
 
           <div class="navlogo">
 
-            <img src="../IMG/Element_1testt.png" alt="Logo" class="navlogo">
+            <img src="./IMG/Element_1testt.png" alt="Logo" class="navlogo">
           </div>
 
 
