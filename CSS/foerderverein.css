@@ -1,11 +1,11 @@
 /* steven hat gekocht */
 
 /* Allgemeine Stile */
-p {
+.textSU {
     margin: 20px;
 }
 
-h1 {
+.ueberschriftSU {
     margin-top: 20px;
 }
 
@@ -21,14 +21,8 @@ h1 {
 .main-text {
     text-align: justify;
 }
-
-/* Stile für den Inhaltsbereich */
-.content {
-    margin-bottom: 20px;
-}
-
 /* Stile für Tabellen */
-table {
+.rounded-border {
     width: 60%; /* Ändern der Breite der Tabelle */
     border-collapse: separate;
     border-spacing: 0 10px; /* Abstand zwischen den Zellen */
@@ -48,19 +42,19 @@ table {
 }
 
 /* Stile für Tabellenüberschriften und -zellen */
-th, td { 
+.tabelleSU, td { 
     padding: 8px;
     border: 1px solid var(--color1); /* Linien um die Zellen */
 }
 
 /* Stile für Tabellenüberschriften */
-th {
+.tabelleSU {
     background-color: var(--color1); /* Dunkelrote Hintergrundfarbe für Tabellenüberschriften */
     color: white; /* Weiße Schriftfarbe für bessere Lesbarkeit */
 }
 
 /* Stile für Tabellenzellen */
-td {
+.tabelleninhalt2SU {
     background-color: var(--color4); /* Leichtes Grau für Tabellenzellen-Hintergrund */
 }
 
