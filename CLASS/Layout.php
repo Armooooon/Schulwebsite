@@ -52,7 +52,7 @@ class Layout
                   <li><a href="">Über&nbspuns</a></li>
                   <li><a href="#">Schulstruktur</a></li>
                   <li><a href="#">Schulprogramm</a></li>
-                  <li><a href="#">Hausordnung</a></li>
+                  <li><a href="hausordnung.php">Hausordnung</a></li>
                 </ul>
               </li>
               </li>

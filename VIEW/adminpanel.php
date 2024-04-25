@@ -1,4 +1,4 @@
-<?php Layout::Header("Adminpanel"); ?>
+<?php Layout::Header("Admin Panel"); ?>
 <!-- Islam Praktikant -->
 
 <div style="padding-top:120px" class="containerap">
