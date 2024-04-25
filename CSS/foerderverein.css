@@ -78,4 +78,5 @@ td {
     border: none; /* Kein Rand */
     padding: 10px 20px; /* Innenabstand oben/unten links/rechts */
     text-align: center; /* Text zentriert */
-    text-decoration: none; /* Keine
+    text-decoration: none; 
+}

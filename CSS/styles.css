@@ -10,6 +10,7 @@
 @import url(farbcodes.css);
 @import url(stellenausschreibung.css);
 @import url(projekte.css);
+@import url(impressum.css);
 body {
     margin: 0;
     font-family: "Segoe UI", Arial, sans-serif;

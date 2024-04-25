@@ -1,4 +1,4 @@
-<?php Layout::Header("Kontakt"); ?>
+<?php Layout::Header("Impressum"); ?>
 
 <!-- Steven hat gekocht -->
 
