@@ -3,6 +3,10 @@
     background: var(--color2);
 }
 
+.head_p_mb {
+    margin: 0 1rem;
+}
+
 .p_mb h5 {
     background: var(--color3);
 }

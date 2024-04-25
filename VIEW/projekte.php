@@ -7,7 +7,7 @@ Hier ist der Code mit Kommentaren:
 <!-- Begin Schulsozialarbeit(Michel Blecken) -->
 <div class="container" style="display: block;">
     <section class="p_mb">
-        <div class="head_p_mb" style="padding-top: 150px;">
+        <div class="head_p_mb" style="padding-top: 150px; text-center">
             <h1>Projekte</h1> <!-- Hier wird der Titel "Projekte" innerhalb eines h1-Tags angezeigt -->
         </div>
         <div id="carouselExampleCaptions" class="carousel slide">
