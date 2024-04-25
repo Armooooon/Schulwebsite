@@ -1,6 +1,4 @@
-/*
-Dieser Code ist von Steven
-*/
+/* steven hat gekocht */
 
 /* Allgemeine Stile */
 p {
@@ -12,7 +10,7 @@ h1 {
 }
 
 /* Stile für den Haupttextblock */
-.maintextsu {
+.main-text-container {
     padding: 150px; /* Innenabstand für den Textblock */
     padding-top: 150px; /* Innenabstand für den Textblock */
     text-align: center; /* Text im Block zentrieren */  
@@ -20,7 +18,7 @@ h1 {
 }
 
 /* Stile für den Fließtext im Textblock */
-.textsu {
+.main-text {
     text-align: justify;
 }
 
@@ -67,7 +65,7 @@ td {
 }
 
 /* Stile für Textblöcke */
-.text {
+.additional-text {
     margin-top: 12px;
     margin-bottom: 12px;
     padding: 12px; /* Innenabstand für den Text */
@@ -80,9 +78,4 @@ td {
     border: none; /* Kein Rand */
     padding: 10px 20px; /* Innenabstand oben/unten links/rechts */
     text-align: center; /* Text zentriert */
-    text-decoration: none; /* Keine Unterstreichung */
-    display: inline-block; /* Blockelement */
-    font-size: 16px; /* Textgröße */
-    cursor: pointer; /* Zeiger-Cursor */
-    border-radius: 5px; /* Abgerundete Ecken */
-}
+    text-decoration: none; /* Keine
