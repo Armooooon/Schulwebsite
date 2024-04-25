@@ -33,10 +33,16 @@
 
 .ssa_mb {
     background: var(--color2);
-    margin: 0 1rem;
 }
 
 .tr_mb {
     background: var(--color2);
+}
+
+.ssa_mb div {
+    margin: 0 1rem;
+}
+
+.tr_mb div {
     margin: 0 1rem;
 }
