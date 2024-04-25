@@ -7,8 +7,8 @@
         <div class="col">
             <h1 class="afa"
                 style=" padding: 10px; background-color: var(--color1); border: 1px solid black; margin-top: 50px; margin-bottom: 50px; color: white; border-radius: 20px;">
-                <u>Agentur für Arbeit</u></h1>
-            <h4 style="padding:25px; text-align: left; background-color: var(--color4); min-height: 800px; border-radius: 20px;">Die Agentur für Arbeit ist eine
+                Agentur für Arbeit</h1>
+            <h4 style="padding:25px; text-align: left; background-color: var(--color4); min-height: 800px; border-radius: 20px; font-weight: lighter">Die Agentur für Arbeit ist eine
                 staatliche Institution in Deutschland, die sich um die Vermittlung von Arbeitsplätzen kümmert und
                 Arbeitssuchenden bei der Jobsuche unterstützt. Sie bietet auch Berufsberatung, Weiterbildungsangebote
                 und finanzielle Unterstützung wie Arbeitslosengeld. Ihr Ziel ist es, die Arbeitslosigkeit zu bekämpfen
@@ -17,8 +17,8 @@
         <div class="col">
             <h1 class="Praktika"
                 style=" padding: 10px; background-color: var(--color1); border: 1px solid black; margin-top: 50px; margin-bottom: 50px; color: white; border-radius: 20px;">
-                <u>Praktika</u></h1>
-            <h4 style="padding:25px; text-align: left; background-color: var(--color4); min-height: 800px; border-radius: 20px;">Praktika dienen dazu,
+                Praktika</h1>
+            <h4 style="padding:25px; text-align: left; background-color: var(--color4); min-height: 800px; border-radius: 20px; font-weight: lighter;">Praktika dienen dazu,
                 theoretisches Wissen in der Praxis anzuwenden und praktische Erfahrungen in einem bestimmten Berufsfeld
                 zu sammeln. Sie ermöglichen es den Teilnehmern, Einblicke in die Arbeitswelt zu gewinnen, Fähigkeiten zu
                 entwickeln und Kontakte zu knüpfen. Praktika sind eine wichtige Möglichkeit, um Berufsorientierung zu
@@ -29,8 +29,8 @@
         <div class="col">
             <h1 class="Messen"
                 style="padding: 10px; background-color: var(--color1); border: 1px solid black; margin-top: 50px; margin-bottom: 50px; color: white; border-radius: 20px;">
-                <u>Messen&Co</u></h1>
-            <h4 style="padding:25px; text-align: left; background-color: var(--color4); min-height: 800px; margin-bottom: 100px; border-radius: 20px;">Messen und
+                Messen&Co</h1>
+            <h4 style="padding:25px; text-align: left; background-color: var(--color4); min-height: 800px; margin-bottom: 100px; border-radius: 20px; font-weight: lighter">Messen und
                 ähnliche Veranstaltungen dienen dazu, Unternehmen eine Plattform zu bieten, um ihre Produkte und
                 Dienstleistungen einem breiten Publikum vorzustellen. Sie ermöglichen es Unternehmen, potenzielle Kunden
                 direkt anzusprechen, neue Geschäftskontakte zu knüpfen und bestehende Beziehungen zu pflegen. Darüber
