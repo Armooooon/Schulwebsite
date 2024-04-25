@@ -133,7 +133,7 @@ class Layout
             </div>
 
             <div class="col-md-4">
-                <h6><a href="#kontakt.php" style="text-decoration: none; color: black;">Kontakt</a></h6>
+                <h6><a href="kontakt.php" style="text-decoration: none; color: black;">Kontakt</a></h6>
             </div>
 
             <div class="col-md-4">
