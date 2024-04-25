@@ -16,7 +16,7 @@ h1 {
     padding: 150px; /* Innenabstand für den Textblock */
     padding-top: 150px; /* Innenabstand für den Textblock */
     text-align: center; /* Text im Block zentrieren */  
-    background-color: #f2f2f2; /* Hintergrundfarbe für den Textblock */
+    background-color: var(--color2); /* Hintergrundfarbe für den Textblock */
 }
 
 /* Stile für den Fließtext im Textblock */
@@ -40,7 +40,7 @@ table {
 
 /* Stile für Tabellen mit abgerundeten Rahmen */
 .rounded-border {
-    border: 5px solid #8B0000; /* Dunkelrote Rahmen für Tabellenzellen */
+    border: 5px solid var(--color1); /* Dunkelrote Rahmen für Tabellenzellen */
     padding: 8px;
     border-collapse: separate;
     border-spacing: 2px;
@@ -52,18 +52,18 @@ table {
 /* Stile für Tabellenüberschriften und -zellen */
 th, td { 
     padding: 8px;
-    border: 1px solid #8B0000; /* Linien um die Zellen */
+    border: 1px solid var(--color1); /* Linien um die Zellen */
 }
 
 /* Stile für Tabellenüberschriften */
 th {
-    background-color: #8B0000; /* Dunkelrote Hintergrundfarbe für Tabellenüberschriften */
+    background-color: var(--color1); /* Dunkelrote Hintergrundfarbe für Tabellenüberschriften */
     color: white; /* Weiße Schriftfarbe für bessere Lesbarkeit */
 }
 
 /* Stile für Tabellenzellen */
 td {
-    background-color: #D3D3D3; /* Leichtes Grau für Tabellenzellen-Hintergrund */
+    background-color: var(--color4); /* Leichtes Grau für Tabellenzellen-Hintergrund */
 }
 
 /* Stile für Textblöcke */
@@ -75,7 +75,7 @@ td {
 
 /* Stile für den akzentuierten Button */
 .accent-button {
-    background-color: #8B0000; /* Dunkelrote Hintergrundfarbe */
+    background-color: var(--color1); /* Dunkelrote Hintergrundfarbe */
     color: white; /* Weiße Textfarbe */
     border: none; /* Kein Rand */
     padding: 10px 20px; /* Innenabstand oben/unten links/rechts */
