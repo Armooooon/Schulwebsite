@@ -1,4 +1,5 @@
 <?php 
+    // Header des Layouts einbinden
     Layout::Header("foerderverein");
 ?>
 
@@ -19,7 +20,8 @@
                     </tr>
                 </thead>
                 <tbody>
-                <tr>
+                    <!-- Vorstandsmitglieder auflisten -->
+                    <tr>
                         <td>K. Kavelmann</td>
                         <td>Vorsitzende</td>
                     </tr>
@@ -56,7 +58,9 @@
             </table>
         </section>
         <div class="text">
+            <!-- Dank an Sponsoren -->
             <p>Wir bedanken uns ganz herzlich bei unseren Sponsoren - ganz besonders bei der Firma Kroos.</p>
+            <!-- Projekte und Unterstützungen auflisten -->
             <p>Im Jahr 2022 wurde das Projekt "Footballcamp" vom Förderverein unterstützt.</p>
             <p>2023: - Finanzierung des Apfelprojekts in Klasse 3</p>
             <h2>Mitglieder</h2>
@@ -79,5 +83,6 @@
 </div>
 
 <?php 
+    // Footer des Layouts einbinden
     Layout::Footer();
 ?>
