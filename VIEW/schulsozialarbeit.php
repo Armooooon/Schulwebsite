@@ -2,7 +2,7 @@
 <!--Begin Schulsozialarbeit(Michel Blecken)-->
 <div class="container" style="display: block;">
     <section class="ssa_mb">
-        <div class=headline_ssa_mb style="padding-top: 150px;">
+        <div class=headline_ssa_mb style="padding-top: 120px;">
             <h1 style="font-weight: bold;">Schulsozialarbeit an der Pestalozzi-Schule</h1>
         </div>
         <div class="angebot_ssa_mb">

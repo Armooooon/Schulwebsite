@@ -14,3 +14,7 @@
 .p_mb p {
     background: var(--color3);
 }
+
+.carousel-inner {
+    margin-top: 2rem;
+}
