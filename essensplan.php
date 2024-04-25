@@ -1,5 +1,7 @@
 <?php
 require_once 'CLASS/class.php';
+//init
+db::init();
 
 $directory = "FILES/essensplan/";
 $fileList = array();

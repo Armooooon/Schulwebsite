@@ -1,8 +1,9 @@
 <?php
 require_once 'CLASS/class.php';
-
-//Hier kommt die ausgeführte Serverlogik 
-//...
+//init
+db::init();
+//$person = person::getById($_GET['idPerson']);
+//$personen = person::GetAllPersonByFunktion("Schüler");
 
 //view
 require_once 'VIEW/index.php';
