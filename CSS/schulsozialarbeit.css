@@ -32,3 +32,11 @@
 .erreichen_ssa_mb {
     margin-top: 1rem;
 }
+
+.ssa_mb {
+    background: var(--color2);
+}
+
+.tr_mb {
+    background: var(--color2)
+}

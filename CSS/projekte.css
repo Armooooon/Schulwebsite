@@ -1,0 +1,12 @@
+/*projekte.css by Michel Blecken*/
+.p_mb {
+    background: var(--color2);
+}
+
+.p_mb h5 {
+    background: var(--color3);
+}
+
+.p_mb p {
+    background: var(--color3);
+}

@@ -9,7 +9,7 @@
 @import url(schulkonferenz.css);
 @import url(farbcodes.css);
 @import url(stellenausschreibung.css);
-
+@import url(projekte.css);
 body {
     margin: 0;
     font-family: "Segoe UI", Arial, sans-serif;
