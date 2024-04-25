@@ -1,6 +1,4 @@
 /*schulsozialarbeit.css by Michel Blecken*/
-
-
 .angebot_ssa_mb {
     margin-top: 2rem;
 }
@@ -31,4 +29,20 @@
 
 .erreichen_ssa_mb {
     margin-top: 1rem;
+}
+
+.ssa_mb {
+    background: var(--color2);
+}
+
+.tr_mb {
+    background: var(--color2);
+}
+
+.ssa_mb div {
+    margin: 0 1rem;
+}
+
+.tr_mb div {
+    margin: 0 1rem;
 }
