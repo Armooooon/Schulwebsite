@@ -12,14 +12,15 @@
 
 <body class="alles">
     <main>
-    <div class="ueber pestalozzi-demmin" style="display: block;">
+    <div class="container" style="display: block;">
         <section class="about-school">
-            <div class="container" style="display: block;">
+            
             <h2>Über die Pestalozzi-Schule Demmin</h2>
             <p>Die Pestalozzi-Schule Demmin ist eine führende Bildungseinrichtung in der Region, die sich der Förderung der akademischen Exzellenz und der persönlichen Entwicklung ihrer Schülerinnen und Schüler verschrieben hat.</p>
             <p>Unsere Schule bietet ein vielfältiges und ansprechendes Lernumfeld, in dem die Schülerinnen und Schüler nicht nur fachliches Wissen erwerben, sondern auch ihre kreativen, sozialen und sportlichen Fähigkeiten entwickeln können.</p>
             <p>Wir legen großen Wert auf eine enge Zusammenarbeit zwischen Lehrern, Schülern und Eltern, um sicherzustellen, dass jeder Schüler sein volles Potenzial entfalten kann.</p>
             <p>Unsere Schule bietet auch eine Reihe von außerschulischen Aktivitäten und Programmen an, die das Lernen ergänzen und den Schülern die Möglichkeit bieten, ihre Interessen und Leidenschaften zu verfolgen.</p>
+                  
         </section>
 
         <section class="job-listings">

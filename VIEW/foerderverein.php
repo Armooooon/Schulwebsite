@@ -2,7 +2,7 @@
     Layout::Header("foerderverein");
 ?>
 
-<div class="container">
+<div class="container" style="display: block;">
     <div class="maintextsu">
         <h1>Unser Förderverein</h1>
         <div class="textsu">
