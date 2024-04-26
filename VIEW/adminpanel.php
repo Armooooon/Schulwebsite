@@ -5,7 +5,7 @@
 
 <h1 class="h1ap">Admin Panel</h1>
 
-        <h2>Adresse</h2>
+        <h2>E-Mail Adresse</h2>
         <form>
             <div class="form-groupap">
                 <label class="labelap" for="address">Adresse:</label>
@@ -14,7 +14,7 @@
             <button class="buttonap" type="submit">Speichern</button>
         </form>
 
-        <h2>Personfunktion</h2>
+        <h2>Ihre Funktion</h2>
         <form>
             <div class="form-groupap">
                 <label class="labelap"for="function">Funktion:</label>
@@ -30,7 +30,7 @@
                 <input class="inputap" type="text" id="name" name="name">
             </div>
             <div class="form-groupap">
-                <label class="labelap" for="address">Adresse:</label>
+                <label class="labelap" for="address">E-Mail Adresse:</label>
                 <input class="inputap" type="text" id="address" name="address">
             </div>
             <div class="form-groupap">
