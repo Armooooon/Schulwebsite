@@ -196,11 +196,11 @@
 
 <br>
     Der Schulleiter übt das Hausrecht im:
-    <ul>
-        <li>gesamten Bereich der Regionalen Schule aus.</li>
-        <li>der Lehrer übt in seinem Unterrichtsraum und in seinem Aufsichtsbereich das Hausrecht aus.</li>
-        <li>schulfremde Personen dürfen sich nur nach Anmeldung im Sekretariat in der Schule aufhalten. </li>
-    </ul>
+<ul>
+    <li>gesamten Bereich der Regionalen Schule aus.</li>
+    <li>der Lehrer übt in seinem Unterrichtsraum und in seinem Aufsichtsbereich das Hausrecht aus.</li>
+    <li>schulfremde Personen dürfen sich nur nach Anmeldung im Sekretariat in der Schule aufhalten. </li>
+</ul>
     <i>Demmin, Februar 2015 </i>  
 </p>
 
