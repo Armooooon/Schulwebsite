@@ -72,6 +72,17 @@ if (!isset($_SESSION['username']) || $_SESSION['username'] !== 'Admin') {
 
 </div>
 
+<form action="#" method="POST">
+<button type="submit" class="btnLGOUT">Logout</button>
+</form>
+
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+$authController = new AuthController();
+$authController->logout();
+header('login.php');
+}
+?>
 <style>
     
     .h1ap {
