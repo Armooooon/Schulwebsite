@@ -1,3 +1,14 @@
+<?php
+
+session_start();
+
+if (!isset($_SESSION['username']) || $_SESSION['username'] !== 'Admin') {
+    header("Location: login.php");
+    exit();
+}
+?>
+
+
 <?php Layout::Header("Admin Panel"); ?>
 <!-- Islam Praktikant -->
 

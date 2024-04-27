@@ -1,8 +1,7 @@
 <?php
+//Login Modellklasse von Aron Halaoui
 require_once 'CLASS/class.php';
-require_once'CLASS/db.php'; 
-//init
-db::init();
+require_once 'CLASS/AuthController.php';
 
 
 //view

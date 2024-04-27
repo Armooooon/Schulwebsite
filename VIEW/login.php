@@ -1,12 +1,7 @@
-
 <?php
-
-require_once 'CLASS/Layout.php';
-
+//Login Seite von Aron Halaoui
 $cssFiles = ['login.css'];
-
 Layout::Header("Login", $cssFiles);
-
 ?>
 
 <!-- Login Form von Aron Halaoui -->
@@ -27,4 +22,14 @@ Layout::Header("Login", $cssFiles);
   </div>
 </div>
 
-<?php Layout::Footer();
+<?php Layout::Footer(); ?>
+
+<?php
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+    $authController = new AuthController();
+    $authController->login($username, $password);
+}
+?>
