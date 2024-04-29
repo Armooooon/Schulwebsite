@@ -1,7 +1,7 @@
 .alles {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
-    padding: 80px 0;
+    padding: 60px 0;
     background-color: #00000000;
     color: #333;
 }
@@ -17,7 +17,7 @@
 
  .kopf{
     background-color: var(--color1);
-    padding: 50px 0;
+    padding: 35px 0;
     text-align: center;
     color: #fff;
 }
@@ -61,7 +61,7 @@
 }
 
 .unten {
-    background-color: #343a40;
+    background-color: var(--color4  );
     color: #fff;
     padding: 20px 0;
     text-align: center;

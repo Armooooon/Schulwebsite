@@ -12,7 +12,7 @@
 
 <body class="alles">
     <main>
-    <div class="container" style="display: block;">
+    <div class="container" style="display: block;  padding-top: 8rem">
         <section class=kopf>
         </section>
         <section class="about-school">
@@ -58,9 +58,6 @@
         </section>
 </div>
     </main>
-    <footer class=unten>
-        <p>Kontakt: <a href="tel:+49000000000">0000-000000</a> | Email: <a href="mailto:info@pestalozzi-demmin.de">info@pestalozzi-demmin.de</a></p>
-    </footer>
 </body>
 
 </html>
