@@ -55,7 +55,7 @@
     <p class="caption">Gemeinschafts- & 
         Teamfähikeit stärken</p>
     <p class="caption">enge Kooperation 
-        mit den Eltern un&d der
+        mit den Eltern & der
         angeschlossenen Grundschule <br>
         -längeres gemeinsames Lernen</p>
     <p class="caption">Europaschule- <br>
