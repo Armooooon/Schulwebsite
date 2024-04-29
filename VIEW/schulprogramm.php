@@ -3,7 +3,7 @@
 <div style="padding-top:120px" class="containerap" style="display: block;">
         <section class=kopf>
         </section>
-        <section class="about-school">
+        <section class="hintergrund">
 <h1 class="h1sp">Schulprogramm</h1>
 
 
@@ -19,7 +19,7 @@
 .h1sp {
     text-align: center;
 }
-.about-school {
+.hintergrund {
     background-color: var(--color2);
     border-radius: 8px;
     padding: 30px;
