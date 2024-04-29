@@ -1,5 +1,6 @@
 /*Styles.css by Aron Halaoui*/
 @import url(footer.css);
+@import url(font.css);
 @import url(navbar.css);
 @import url(kontakt.css);
 @import url(ueberUns.css);
@@ -9,24 +10,29 @@
 @import url(schulkonferenz.css);
 @import url(farbcodes.css);
 @import url(stellenausschreibung.css);
-@import url(projekte.css);
 @import url(impressum.css);
+
 body {
-    margin: 0;
-    font-family: "Segoe UI", Arial, sans-serif;
-    z-index: 0;
-  }
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  z-index: 0;
+  font-size: 1rem;
 
+}
 
-  
+h1 {
+  font-size: 2.5rem;
+}
+
 .LandingpagePicture {
   max-width: 100%;
   filter: brightness(90%)
-  }
+}
 
 .container {
   display: flex;
-  justify-content: center; /* Zentriert die Container horizontal */
+  justify-content: center;
+  /* Zentriert die Container horizontal */
   z-index: 10;
 }
 
@@ -35,23 +41,27 @@ body {
   height: 500px;
   background-color: #383c64;
   color: white;
-  width: 300px; /* Breite der Container anpassen */
-  border: 1px solid #ccc; /* Optional: Umrandung hinzufügen */
-  padding: 20px; /* Optional: Innenabstand anpassen */
+  width: 300px;
+  /* Breite der Container anpassen */
+  border: 1px solid #ccc;
+  /* Optional: Umrandung hinzufügen */
+  padding: 20px;
+  /* Optional: Innenabstand anpassen */
 }
 
-.headline, .headlineText {
-    color: rgb(52,63,100);
+.headline,
+.headlineText {
+  color: rgb(52, 63, 100);
 }
 
 .headline {
-    margin-top:50px;
-    margin-bottom: 25px;
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
 
 .headlineText {
-    margin-bottom: 25px;
-    font-size: 20px;
+  margin-bottom: 25px;
+  font-size: 20px;
 }
 
 
