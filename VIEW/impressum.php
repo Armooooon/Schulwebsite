@@ -1,5 +1,4 @@
 <?php Layout::Header("Impressum"); ?>
-
 <!-- Steven hat gekocht -->
 
 <div class="container" style="padding-top: 150px;">
