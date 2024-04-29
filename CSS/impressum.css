@@ -13,21 +13,21 @@
 
 /* Stil für die Überschriften */
 .ueberschrift1SU {
-    color: #333; /* Textfarbe der Überschrift */
+    color: var(--color2); /* Textfarbe der Überschrift */
     font-size: 24px; /* Schriftgröße der Überschrift */
     margin-bottom: 15px; /* Abstand unter der Überschrift */
 }
 
 /* Stil für den Text */
 .text1SU {
-    color: #555; /* Textfarbe */
+    color: var(--color2); /* Textfarbe */
     font-size: 16px; /* Schriftgröße */
     margin-bottom: 10px; /* Abstand unter dem Text */
 }
 
 /* Stil für den Link */
 .text1SU a {
-    color: #007bff; /* Linkfarbe */
+    color: var(--color1); /* Linkfarbe */
     text-decoration: none; /* Keine Unterstreichung */
 }
 
