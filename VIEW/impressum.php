@@ -7,7 +7,7 @@
         <div class="impressum-box">
             <h1 class ="ueberschrift1SU">Impressum</h1>
             <div class="schulleitung">
-                <h1>Schulleitung</h1>
+                <h1 class ="ueberschrift1SU">Schulleitung</h1>
                     <p class ="text1SU">Frau Dr. Melanie Brüchner</p>
                         <p class ="text1SU">Anklamer Feld 9</p>
                             <p class ="text1SU">17109 Demmin</p>

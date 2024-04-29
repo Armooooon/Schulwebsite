@@ -1,6 +1,9 @@
 /* steven hat gekocht */
 
 /* Allgemeine Stile */
+.ueberschrift1SUI {
+    text-align: center;
+}
 .textSU {
     margin: 20px;
 }
