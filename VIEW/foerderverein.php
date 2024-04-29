@@ -67,7 +67,7 @@
             <div class="member-info-container text-center">
                 <div class="row">
                     <div class="col">
-                    <h1 class ="ueberschriftSU"> </h1>
+                    <h1 class ="ueberschriftSU"> Mitglied </h1>
                     <p class ="textSU">Falls Sie Mitglied werden möchten, können Sie hier den Antrag</a> herunterladen.</p>
                         <!-- Button für den Antrag -->
                         <button class="accent-button" onclick="window.open('link_zum_antrag', '_blank')">Antrag herunterladen</button>
