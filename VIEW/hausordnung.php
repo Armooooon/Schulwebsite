@@ -1,8 +1,8 @@
 <?php Layout::Header("Hausordnung"); ?>
 <!-- Islam Praktikant -->
 <div style="padding-top:120px" class="containerap" style="display: block;">
-        <section class=kopf>
-        </section>
+<section class=kop>
+</section>
         <section class="about-school">
 <h1 class="h1ho">Hausordnung</h1>
 <p>Eine Schule ist wie ein Betrieb, in dem sich viele Menschen aufhalten und nach bestimmten Regeln bewegen müssen, 
