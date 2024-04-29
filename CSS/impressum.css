@@ -1,0 +1,31 @@
+/* Stil für die Impressum-Box */
+.impessumalles {
+    width: 70%; /* Breite der Box */
+    margin: 0 0 60px 0; /* Zentrierung der Box */
+    background-color: var(--color2); /* Hintergrundfarbe der Box */
+    padding: 20px; /* Innenabstand der Box */
+    border-radius: 10px; /* Abrundung der Ecken */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Schatten um die Box */
+}
+
+/* Stil für die Überschriften */
+.ueberschrift1SU {
+    font-size: 24px; /* Schriftgröße der Überschrift */
+    margin-bottom: 15px; /* Abstand unter der Überschrift */
+}
+
+/* Stil für den Text */
+.text1SU {
+    font-size: 16px; /* Schriftgröße */
+    margin-bottom: 10px; /* Abstand unter dem Text */
+}
+
+/* Stil für den Link */
+.text1SU a {
+    color: #007bff; /* Linkfarbe */
+    text-decoration: none; /* Keine Unterstreichung */
+}
+
+.text1SU a:hover {
+    text-decoration: underline; /* Unterstreichung bei Hover */
+}
