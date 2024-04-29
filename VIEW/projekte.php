@@ -1,13 +1,10 @@
-Hier ist der Code mit Kommentaren:
-
-```php
 <?php Layout::Header("Projekte"); ?>
 <!-- Hier wird der Header des Layouts eingefügt und "Projekte" als Titel übergeben -->
 
 <!-- Begin Schulsozialarbeit(Michel Blecken) -->
 <div class="container" style="display: block;">
     <section class="p_mb">
-        <div class="head_p_mb" style="padding-top: 100px; text-center">
+        <div class="head_p_mb" style="padding-top: 110px; text-center">
             <h1>Projekte</h1> <!-- Hier wird der Titel "Projekte" innerhalb eines h1-Tags angezeigt -->
         </div>
         <div id="carouselExampleCaptions" class="carousel slide">
