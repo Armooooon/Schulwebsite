@@ -24,12 +24,6 @@ Layout::Header("Login", $cssFiles);
 
 <?php Layout::Footer(); ?>
 
-<?php
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $username = $_POST['username'];
-    $password = $_POST['password'];
-    $authController = new AuthController();
-    $authController->login($username, $password);
-}
-?>
+
+

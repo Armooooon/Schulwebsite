@@ -9,9 +9,6 @@ class Benutzer {
         return $this->idbenutzer;
     }
 
-    public function setIdbenutzer($idbenutzer) {
-        $this->idbenutzer = $idbenutzer;
-    }
 
     public function getBenutzername() {
         return $this->benutzername;
@@ -26,7 +23,8 @@ class Benutzer {
 }
 
     public function setPassword($password) {
-        $this->password = $password;
+        $this->password = md5($password);
+        //$this->password = $password;
     }
 
     public function getPerson() {

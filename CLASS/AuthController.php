@@ -6,9 +6,9 @@ class AuthController
 {
     public function login($username, $password)
     {
-
+        
         $stmt = db::$pdo->prepare("SELECT * FROM benutzer WHERE benutzername = :username");
-        $stmt->execute(['username' => $username]);
+        $stmt->execute(['username' => strtolower($username)]);
         $user = $stmt->fetch(PDO::FETCH_ASSOC);
 
 
@@ -16,27 +16,19 @@ class AuthController
 
             session_start();
             $_SESSION['username'] = $username;
+            header("Location: adminpanel.php");
 
 
-            if ($username === 'Admin' && password_verify('admin', $user['password'])) {
-
-                header("Location: adminpanel.php");
-                exit();
-            } else {
-
-                header("Location: user_panel.php");
-                exit();
-            }
-        } else {
-            echo '<div>Error</div>';
-            return false;
+        }else {
+            header("Location: login.php");
         }
-    }
+}
 
     public function logout()
     {
         session_destroy();
-        header("Location: index.php");
+        header("Location: Login.php");
         exit();
     }
+    
 }

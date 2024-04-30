@@ -1,13 +1,3 @@
-<?php
-
-session_start();
-
-if (!isset($_SESSION['username']) || $_SESSION['username'] !== 'Admin') {
-    header("Location: login.php");
-    exit();
-}
-?>
-
 
 <?php Layout::Header("Admin Panel"); ?>
 <!-- Islam Praktikant -->
@@ -76,13 +66,7 @@ if (!isset($_SESSION['username']) || $_SESSION['username'] !== 'Admin') {
 <button type="submit" class="btnLGOUT">Logout</button>
 </form>
 
-<?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-$authController = new AuthController();
-$authController->logout();
-header('login.php');
-}
-?>
+
 <style>
     
     .h1ap {
