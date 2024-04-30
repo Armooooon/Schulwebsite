@@ -4,10 +4,11 @@ require_once 'CLASS/AuthController.php';
 
 session_start();
 
-if (!isset($_SESSION['username']) || $_SESSION['username'] !== 'Admin' ) {
+if (!isset($_SESSION['username'])) {
     header("Location: login.php");
     exit();
 }
+
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 $authController = new AuthController();
