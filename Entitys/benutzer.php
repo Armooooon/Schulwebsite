@@ -23,7 +23,7 @@ class Benutzer {
 }
 
     public function setPassword($password) {
-        $this->password = md5($password);
+        $this->password = password_hash($password, PASSWORD_DEFAULT);
         //$this->password = $password;
     }
 
