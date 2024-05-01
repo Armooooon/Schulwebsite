@@ -1,7 +1,8 @@
 <?php
 require_once 'CLASS/class.php';
+//Von Aron Halaoui
 require_once 'CLASS/AuthController.php';
-
+//von Aron Halaoui
 session_start();
 
 if (!isset($_SESSION['username'])) {
