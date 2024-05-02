@@ -1,7 +1,7 @@
 <?php Layout::Header("Admin Panel"); ?>
 <!-- Islam Praktikant -->
 
-<div style="padding-top:120px" class="containerap">
+<div style="padding-top:8rem" class="container d-flex justify-content-center">
 
     <h1 class="h1ap">Admin Panel</h1>
 
