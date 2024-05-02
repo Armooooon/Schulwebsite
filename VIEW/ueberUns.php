@@ -25,7 +25,7 @@
     <!-- Column with padding -->
     <div class="col" style="padding: 20px;">
       <!-- Image with fixed width and alt text -->
-      <img src="./IMG/pestaloziSchulfoto.jpg" style="width: 700px;" alt="Foto der Schule">
+      <img src="./IMG/pestaloziSchulfoto.jpg" style="width: 100%; border: 3px solid var(--color1);" alt="Foto der Schule">
     </div>
   </div>
 </div>
