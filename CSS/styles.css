@@ -29,12 +29,11 @@ h1 {
   filter: brightness(90%)
 }
 
-.container {
+/* .container {
   display: flex;
   justify-content: center;
-  /* Zentriert die Container horizontal */
   z-index: 10;
-}
+} */
 
 .aktuelles-container {
   /* position: absolute; */
