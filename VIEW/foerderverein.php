@@ -74,7 +74,9 @@ Layout::Header("foerderverein");
                     </div>
                     <div class="col">
                         <h1 class="ueberschriftSU"> Satzung </h1>
-                        <p class="textSU">Sie können auch die <a href="link_zur_satzung">Satzung</a> des Fördervereins einsehen.</p>
+                        <p class="textSU">Sie können auch die Satzung des Fördervereins einsehen.</p>
+                        <!-- Button für die Satzung -->
+                        <button class="accent-button" onclick="window.open('link_zum_antrag', '_blank')">Satzung ansehen</button>
                     </div>
                 </div>
             </div>
