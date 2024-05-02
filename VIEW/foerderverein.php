@@ -3,7 +3,7 @@
 Layout::Header("foerderverein");
 ?>
 <!-- steven hat gekocht -->
-<div class="container" style="display: block;">
+<div class="container">
     <div class="main-text-container">
         <h1 class="ueberschriftSU">Unser Förderverein</h1>
         <div class="main-text">
@@ -69,14 +69,15 @@ Layout::Header("foerderverein");
                     <div class="col">
                         <h1 class="ueberschriftSU"> Mitglied </h1>
                         <p class="textSU">Falls Sie Mitglied werden möchten, können Sie hier den Antrag</a> herunterladen.</p>
-                        <!-- Button für den Antrag -->
-                        <button class="accent-button" onclick="window.open('link_zum_antrag', '_blank')">Antrag herunterladen</button>
                     </div>
                     <div class="col">
                         <h1 class="ueberschriftSU"> Satzung </h1>
                         <p class="textSU">Sie können auch die Satzung des Fördervereins einsehen.</p>
-                        <!-- Button für die Satzung -->
-                        <button class="accent-button" onclick="window.open('link_zum_antrag', '_blank')">Satzung ansehen</button>
+                    </div>
+                    <!-- Button für die Satzung -->
+                    <div class="pizza d-flex justify-content-around">
+                        <button class="accent-button" onclick="window.open('link_zum_antrag', '_blank')">Antrag herunterladen</button>
+                        <button class="accent-button" onclick="window.open('link_zum_antrag', '_blank')">Satzung einsehen</button>
                     </div>
                 </div>
             </div>

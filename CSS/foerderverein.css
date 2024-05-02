@@ -12,7 +12,7 @@
 /* Stile für den Haupttextblock */
 .main-text-container {
     padding: 150px; /* Innenabstand für den Textblock */
-    padding-top: 150px; /* Innenabstand für den Textblock */
+    padding-top: 8rem; /* Innenabstand für den Textblock */
     text-align: center; /* Text im Block zentrieren */  
     background-color: var(--color2); /* Hintergrundfarbe für den Textblock */
 }
