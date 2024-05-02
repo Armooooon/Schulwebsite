@@ -1,69 +1,69 @@
 /*schulsozialarbeit.css by Michel Blecken*/
 .angebot_ssa_mb {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .konflikt_ssa_mb {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 .gruppen_ssa_mb {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 .entwicklung_ssa_mb {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 .raum_ssa_mb {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 .arbeite_ssa_mb {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 .arbeitszeiten_ssa_mb {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 .erreichen_ssa_mb {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 .ssa_mb {
-    background: var(--color2);
+  background: var(--color2);
 }
 
 .tr_mb {
-    background: var(--color2);
+  background: var(--color2);
 }
 
 .ssa_mb div {
-    margin: 0 1rem;
+  margin: 0 1rem;
 }
 
 .tr_mb div {
-    margin: 0 1rem;
+  margin: 0 1rem;
 }
 
 /*projekte.css by Michel Blecken*/
 .p_mb {
-    background: var(--color2);
+  background: var(--color2);
 }
 
 .head_p_mb {
-    margin: 0 1rem;
+  margin: 0 1rem;
 }
 
 .p_mb h5 {
-    background: var(--color3);
+  background: var(--color3);
 }
 
 .p_mb p {
-    background: var(--color3);
+  background: var(--color3);
 }
 
 .carousel-inner {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }

@@ -4,7 +4,7 @@ nav {
   position: fixed;
   display: flex;
   top: 0;
-  background: #848d93; 
+  background: #848d93;
   z-index: 100;
   align-items: center;
   justify-content: space-between;
@@ -21,18 +21,18 @@ nav .wrapper {
   line-height: 70px;
   display: flex;
   align-items: center;
-  justify-content:start; 
+  justify-content: start;
 }
 
 .wrapper .nav-links {
   display: inline-flex;
-  margin: 0; 
-  padding: 0; 
+  margin: 0;
+  padding: 0;
 }
 
 .nav-links li {
   list-style: none;
-  margin: 10px 10px; 
+  margin: 10px 10px;
 }
 
 .nav-links li a {
@@ -49,65 +49,70 @@ nav .wrapper {
   background-color: #90001c;
 }
 
-.nav-links li a:hover{
+.nav-links li a:hover {
   background: #90001c;
 }
-.nav-links .mobile-item{
+
+.nav-links .mobile-item {
   display: none;
 }
-.nav-links .drop-menu{
+
+.nav-links .drop-menu {
   position: absolute;
-  background: #848d93; 
+  background: #848d93;
   width: 280px;
   line-height: 45px;
   top: 85px;
   opacity: 0;
   visibility: hidden;
-  box-shadow: 0 10px 10px rgba(0,0,0,0.15);
-  justify-content: flex-start; 
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+  justify-content: flex-start;
   padding: 10px 10px;
-  
+
 }
+
 .nav-links li:hover .drop-menu,
-.nav-links li:hover .mega-box{
+.nav-links li:hover .mega-box {
   transition: all 0.3s ease;
   top: 70px;
   opacity: 1;
   visibility: visible;
 }
-.drop-menu li a{
+
+.drop-menu li a {
   width: 100%;
   display: block;
   padding: 0 0 0 15px;
   font-weight: 300;
   border-radius: 0px;
   left: 0;
-  
+
 }
 
-.content .row header{
+.content .row header {
   color: #f2f2f2;
   font-size: 20px;
   font-weight: 500;
 }
 
-.wrapper .btn{
+.wrapper .btn {
   color: #fff;
   font-size: 20px;
   cursor: pointer;
   display: none;
 }
-.wrapper .btn.close-btn{
+
+.wrapper .btn.close-btn {
   position: absolute;
   right: 30px;
   top: 10px;
 }
 
-nav input{
+nav input {
   display: none;
 }
 
-.navlogo{
+.navlogo {
   height: 100px;
   width: 100px;
   position: absolute;
@@ -116,23 +121,23 @@ nav input{
 }
 
 @media screen and (max-width: 970px) {
-  .wrapper .btn{
+  .wrapper .btn {
     display: block;
   }
-  
-  .wrapper .nav-links{
+
+  .wrapper .nav-links {
     position: fixed;
     height: 100vh;
     width: 100%;
     max-width: 350px;
     top: 0;
     left: -100%;
-    background: #848d93; 
+    background: #848d93;
     display: block;
     padding: 50px 10px;
     line-height: 50px;
     overflow-y: auto;
-    box-shadow: 0px 15px 15px rgba(0,0,0,0.18);
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.18);
     transition: all 0.3s ease;
     left: 0vh;
   }
@@ -149,30 +154,30 @@ nav input{
     background: #3A3B3C;
   }
 
-  #menu-btn:checked ~ .nav-links{
+  #menu-btn:checked~.nav-links {
     left: 0%;
   }
 
-  #menu-btn:checked ~ .btn.menu-btn{
+  #menu-btn:checked~.btn.menu-btn {
     display: none;
   }
 
-  #close-btn:checked ~ .btn.menu-btn{
+  #close-btn:checked~.btn.menu-btn {
     display: block;
   }
 
-  .nav-links li{
+  .nav-links li {
     margin: 15px 0px;
   }
 
-  .nav-links li a{
+  .nav-links li a {
     padding: 10px 20px;
     display: block;
     font-size: 20px;
     left: 20vh;
   }
 
-  .nav-links .drop-menu{
+  .nav-links .drop-menu {
     position: static;
     opacity: 1;
     top: 100%;
@@ -185,20 +190,20 @@ nav input{
     transition: all 0.3s ease;
   }
 
-  #showDrop1:checked ~ .drop-menu,
-  #showDrop2:checked ~ .drop-menu,
-  #showDrop3:checked ~ .drop-menu,
-  #showDrop4:checked ~ .drop-menu,
-  #showDrop5:checked ~ .drop-menu,
-  #showDrop6:checked ~ .drop-menu {
+  #showDrop1:checked~.drop-menu,
+  #showDrop2:checked~.drop-menu,
+  #showDrop3:checked~.drop-menu,
+  #showDrop4:checked~.drop-menu,
+  #showDrop5:checked~.drop-menu,
+  #showDrop6:checked~.drop-menu {
     max-height: 100%;
   }
 
-  .nav-links .desktop-item{
+  .nav-links .desktop-item {
     display: none;
   }
 
-  .nav-links .mobile-item{
+  .nav-links .mobile-item {
     display: block;
     color: #f2f2f2;
     font-size: 20px;
@@ -209,17 +214,16 @@ nav input{
     transition: all 0.3s ease;
   }
 
-  .nav-links .mobile-item:hover{
+  .nav-links .mobile-item:hover {
     background-color: #90001c;
   }
 
-  .drop-menu li{
+  .drop-menu li {
     margin: 0;
   }
 
-  .drop-menu li a{
+  .drop-menu li a {
     border-radius: 5px;
     font-size: 18px;
   }
 }
-

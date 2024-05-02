@@ -3,15 +3,18 @@
   padding: 20px 0;
 
 }
+
 .footer-container {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
+
 .row {
   width: 100%;
 }
+
 hr {
   margin-top: 20px;
   margin-bottom: 20px;

@@ -1,75 +1,88 @@
-
 /* Kontakt CSS by Aron Halaoui*/
 #map {
-    height: 400px; /* The height is 400 pixels */
-    width: 100%; /* The width is the width of the web page */
-  }
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
 
-  .contactTitle {
-    text-align: center;
-    color: #383c64;
-    padding-top: 2cm;
-    background-color: #383c64;
-  }
+.contactTitle {
+  text-align: center;
+  color: #383c64;
+  padding-top: 2cm;
+  background-color: #383c64;
+}
 
-  .contactContent1 {
-    height: 150px;
-    max-width: 20%;
-    color: #383c64;
-    
-  }
+.contactContent1 {
+  height: 150px;
+  max-width: 20%;
+  color: #383c64;
 
+}
+
+.contactContent2 {
+  height: 150px;
+  max-width: 20%;
+  color: #383c64;
+
+}
+
+.flexBoxContactContent {
+  display: flex;
+  height: 300px;
+  max-width: 100%;
+  justify-content: center;
+  padding-top: 2cm;
+  gap: 20px;
+  margin-bottom: 4cm;
+
+}
+
+hr {
+  border: none;
+  height: 1px;
+  /* Set the hr color */
+  color: #383c64;
+  /* old IE */
+  background-color: #383c64;
+  /* Modern Browsers */
+}
+
+@media screen and (max-width: 750px) {
+
+  .contactContent1,
   .contactContent2 {
-    height: 150px;
-    max-width: 20%;
-    color: #383c64;
-  
+    font-size: 0.8em;
+    /* Setze die Schriftgröße auf 80% */
+    max-width: 40%;
+    /* Setze die Breite der Kontaktcontainer auf 100% */
   }
 
-  .flexBoxContactContent {
-    display: flex;
-    height: 300px;
-    max-width: 100%;
-    justify-content: center;
-    padding-top: 2cm;
-    gap: 20px;
-   margin-bottom: 4cm;
-   
-  }
-
-  hr {
-    border: none;
-    height: 1px;
-    /* Set the hr color */
-    color: #383c64;  /* old IE */
-    background-color: #383c64;  /* Modern Browsers */
-  }
-
-  @media screen and (max-width: 750px) {
-    .contactContent1,
-    .contactContent2 {
-      font-size: 0.8em; /* Setze die Schriftgröße auf 80% */
-      max-width: 40%; /* Setze die Breite der Kontaktcontainer auf 100% */
-    }
-  
 
   @media screen and (max-width: 700px) {
+
     .contactContent1,
     .contactContent2 {
-      font-size: 0.8em; /* Setze die Schriftgröße auf 80% */
-      max-width: 65%; /* Setze die Breite der Kontaktcontainer auf 100% */
+      font-size: 0.8em;
+      /* Setze die Schriftgröße auf 80% */
+      max-width: 65%;
+      /* Setze die Breite der Kontaktcontainer auf 100% */
     }
-  
+
     .flexBoxContactContent {
-      height: auto; /* Setze die Höhe automatisch, um den Inhalt zu passen */
-      flex-wrap: wrap; /* Erlaube den Kontaktcontainern, auf eine neue Zeile zu gehen, wenn der Platz nicht ausreicht */
-      gap: 10px; /* Reduziere den Platz zwischen den Kontaktcontainern */
+      height: auto;
+      /* Setze die Höhe automatisch, um den Inhalt zu passen */
+      flex-wrap: wrap;
+      /* Erlaube den Kontaktcontainern, auf eine neue Zeile zu gehen, wenn der Platz nicht ausreicht */
+      gap: 10px;
+      /* Reduziere den Platz zwischen den Kontaktcontainern */
       max-width: 100%;
     }
-  
+
     .site-footer {
-      margin-top: 20px; /* Füge etwas Abstand zwischen dem Footer und dem Kontaktbereich hinzu */
+      margin-top: 20px;
+      /* Füge etwas Abstand zwischen dem Footer und dem Kontaktbereich hinzu */
     }
   }
-  
+
 }

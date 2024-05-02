@@ -1,72 +1,74 @@
 .alles {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 80px 0;
-    background-color: #00000000;
-    color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 80px 0;
+  background-color: #00000000;
+  color: #333;
 }
 
 
 .about-school {
-    background-color: var(--color2);
-    border-radius: 8px;
-    padding: 30px;
-    margin-bottom: 30px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: var(--color2);
+  border-radius: 8px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
- .kopf{
-    background-color: var(--color1);
-    padding: 50px 0;
-    text-align: center;
-    color: #fff;
+.kopf {
+  background-color: var(--color1);
+  padding: 50px 0;
+  text-align: center;
+  color: #fff;
 }
 
-.kopf{
-    font-size: 48px;
+.kopf {
+  font-size: 48px;
 }
 
-.kopf{
-    font-size: 18px;
+.kopf {
+  font-size: 18px;
 }
 
 .about-school h2,
 .job-listings h2 {
-    color: var(--color1); /* Dunkelrot */
-    text-align: center;
+  color: var(--color1);
+  /* Dunkelrot */
+  text-align: center;
 }
-.job-listings{
-    background-color:var(--color2);
+
+.job-listings {
+  background-color: var(--color2);
 }
 
 .job-card {
-    background-color: var(--color2);
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+  background-color: var(--color2);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
 .job-card:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 .job-card h3 {
-    color: #333;
+  color: #333;
 }
 
 .job-card ul {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .unten {
-    background-color: #343a40;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
 }
 
 .footer-content a {
-    color: #fff;
+  color: #fff;
 }

@@ -2,75 +2,97 @@
 
 /* Allgemeine Stile */
 .textSU {
-    margin: 20px;
+  margin: 20px;
 }
 
 .ueberschriftSU {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 /* Stile für den Haupttextblock */
 .main-text-container {
-    padding: 150px; /* Innenabstand für den Textblock */
-    padding-top: 8rem; /* Innenabstand für den Textblock */
-    text-align: center; /* Text im Block zentrieren */  
-    background-color: var(--color2); /* Hintergrundfarbe für den Textblock */
+  padding: 150px;
+  /* Innenabstand für den Textblock */
+  padding-top: 8rem;
+  /* Innenabstand für den Textblock */
+  text-align: center;
+  /* Text im Block zentrieren */
+  background-color: var(--color2);
+  /* Hintergrundfarbe für den Textblock */
 }
 
 /* Stile für den Fließtext im Textblock */
 .main-text {
-    text-align: justify;
+  text-align: justify;
 }
+
 /* Stile für Tabellen */
 .rounded-border {
-    width: 60%; /* Ändern der Breite der Tabelle */
-    border-collapse: separate;
-    border-spacing: 0 10px; /* Abstand zwischen den Zellen */
-    margin: 0 auto; /* Tabelle zentrieren */
-    border-radius: 10px; /* Runde Ecken für die Tabelle */
+  width: 60%;
+  /* Ändern der Breite der Tabelle */
+  border-collapse: separate;
+  border-spacing: 0 10px;
+  /* Abstand zwischen den Zellen */
+  margin: 0 auto;
+  /* Tabelle zentrieren */
+  border-radius: 10px;
+  /* Runde Ecken für die Tabelle */
 }
 
 /* Stile für Tabellen mit abgerundeten Rahmen */
 .rounded-border {
-    border: 5px solid var(--color1); /* Dunkelrote Rahmen für Tabellenzellen */
-    padding: 8px;
-    border-collapse: separate;
-    border-spacing: 2px;
-    width: 60%; /* Ändern der Breite der Tabelle */
-    border-radius: 20px;
-    margin-top: 10px;
+  border: 5px solid var(--color1);
+  /* Dunkelrote Rahmen für Tabellenzellen */
+  padding: 8px;
+  border-collapse: separate;
+  border-spacing: 2px;
+  width: 60%;
+  /* Ändern der Breite der Tabelle */
+  border-radius: 20px;
+  margin-top: 10px;
 }
 
 /* Stile für Tabellenüberschriften und -zellen */
-.tabelleSU, td { 
-    padding: 8px;
-    border: 1px solid var(--color1); /* Linien um die Zellen */
+.tabelleSU,
+td {
+  padding: 8px;
+  border: 1px solid var(--color1);
+  /* Linien um die Zellen */
 }
 
 /* Stile für Tabellenüberschriften */
 .tabelleSU {
-    background-color: var(--color1); /* Dunkelrote Hintergrundfarbe für Tabellenüberschriften */
-    color: white; /* Weiße Schriftfarbe für bessere Lesbarkeit */
+  background-color: var(--color1);
+  /* Dunkelrote Hintergrundfarbe für Tabellenüberschriften */
+  color: white;
+  /* Weiße Schriftfarbe für bessere Lesbarkeit */
 }
 
 /* Stile für Tabellenzellen */
 .tabelleninhalt2SU {
-    background-color: var(--color4); /* Leichtes Grau für Tabellenzellen-Hintergrund */
+  background-color: var(--color4);
+  /* Leichtes Grau für Tabellenzellen-Hintergrund */
 }
 
 /* Stile für Textblöcke */
 .additional-text {
-    margin-top: 12px;
-    margin-bottom: 12px;
-    padding: 12px; /* Innenabstand für den Text */
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding: 12px;
+  /* Innenabstand für den Text */
 }
 
 /* Stile für den akzentuierten Button */
 .accent-button {
-    background-color: var(--color1); /* Dunkelrote Hintergrundfarbe */
-    color: white; /* Weiße Textfarbe */
-    border: none; /* Kein Rand */
-    padding: 10px 20px; /* Innenabstand oben/unten links/rechts */
-    text-align: center; /* Text zentriert */
-    text-decoration: none; 
+  background-color: var(--color1);
+  /* Dunkelrote Hintergrundfarbe */
+  color: white;
+  /* Weiße Textfarbe */
+  border: none;
+  /* Kein Rand */
+  padding: 10px 20px;
+  /* Innenabstand oben/unten links/rechts */
+  text-align: center;
+  /* Text zentriert */
+  text-decoration: none;
 }
