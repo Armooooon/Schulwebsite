@@ -1,6 +1,6 @@
 <?php
 //Von Aron
-require_once 'CLASS/class.php'; // Assuming the file containing the db class is named class.php
+require_once 'CLASS/class.php';
 
 class ControllerPersonfunktion {
 

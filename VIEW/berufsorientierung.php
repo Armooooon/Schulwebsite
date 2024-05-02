@@ -1,5 +1,8 @@
 <?php Layout::Header("BerufsorinetierungPraktika"); ?>
 
+
+<!-- Code by Jared Reichel-->
+
 <img class="LandingpagePicture" src="IMG/classroom.jpg" alt="Classroom-picture">
 
 

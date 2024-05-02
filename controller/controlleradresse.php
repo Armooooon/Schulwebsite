@@ -2,12 +2,6 @@
 //Von Aron
 require_once 'CLASS/class.php';
 class controlleradresse {
-    
-    //private $pdo;
-
-    //public function __construct($pdo) {
-       // $this->pdo = $pdo;
-   // }
 
     // Methode zum Abrufen aller Adressen
     public function getAllAdressen() {
