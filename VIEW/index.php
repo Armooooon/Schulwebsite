@@ -3,25 +3,25 @@
 <img class="LandingpagePicture" src="IMG/classroom.jpg" alt="Classroom-picture">
 
 <!---Start grid icons(Nick)--->
-<div class="container text-center d-flex justify-content-center" style="padding-top: 2rem; " >
+<div class="container text-center d-flex justify-content-center" style="padding-top: 2rem; ">
   <div class="row">
     <div class="col" style="padding: 20px;">
-    <a href="https://www.Youtube.com/"> <img src="./IMG/itslearning.png" style=" width: 250px; height: 250px;" alt=""></a>
+      <a href="https://www.Youtube.com/"> <img src="./IMG/itslearning.png" style=" width: 250px; height: 250px;" alt=""></a>
       <div class="border" style="border: 1px solid #ccc; padding: 10px;">
-    <p>Lernplatform</p>
-    </div>
+        <p>Lernplatform</p>
+      </div>
     </div>
     <div class="col" style="padding: 20px;">
-    <a href="https://www.Youtube.com/"><img src="./IMG/icon stundenplan.svg" style=" width: 250px; height: 250px; " alt=""></a>
+      <a href="https://www.Youtube.com/"><img src="./IMG/icon stundenplan.svg" style=" width: 250px; height: 250px; " alt=""></a>
       <div class="border" style="border: 1px solid #ccc; padding: 10px;">
-    <p>Aktueller Stundenplan</p>
-    </div>
+        <p>Aktueller Stundenplan</p>
+      </div>
     </div>
     <div class="col" style="padding: 20px;">
-    <a href="https://www.Youtube.com/"><img src="./IMG/essenplan icon.jpg" style=" width: 250px; height: 250px;  background-color: #848d93;" alt=""></a>
+      <a href="https://www.Youtube.com/"><img src="./IMG/essenplan icon.jpg" style=" width: 250px; height: 250px;  background-color: #848d93;" alt=""></a>
       <div class="border" style="border: 1px solid #ccc; padding: 10px;">
-    <p>Futterplan</p>
-    </div>
+        <p>Futterplan</p>
+      </div>
     </div>
   </div>
 </div>
@@ -49,7 +49,9 @@
 <hr>
 <!--Begin kontakt section(Nick)-->
 <section id="kontakt" class="kontakt">
-  <div><h2 style="text-align: center;">Kontakt</h2></div>
+  <div>
+    <h2 style="text-align: center;">Kontakt</h2>
+  </div>
   <div class="contact-card" styles="  display: flex; flex-wrap: wrap; gap: 20px; margin: 20px 0;">
     <div class="contact-info" styles="  flex: 1; padding-left: 50px;">
       <h2>Pestalozzi-Schule Demmin</h2>

@@ -1,4 +1,3 @@
-
 <?php Layout::Header("Kontakt"); ?>
 <!--Kontakt.PHP/HTML by Aron Halaoui -->
 <!--The div element for the map -->
@@ -12,24 +11,24 @@
     <h1>Kontakt</h1>
 </div>
 <div class="flexBoxContactContent">
-        <div class="contactContent1">
-        <p> Ich bin ein Textabschnitt. Klicken Sie hier zum Bearbeiten und um Ihren eigenen Text hinzuzufügen.  </p>
-        </div>
-        <div class="contactContent2">
-        	<p>Bei Fragen erreichen Sie uns</p>
+    <div class="contactContent1">
+        <p> Ich bin ein Textabschnitt. Klicken Sie hier zum Bearbeiten und um Ihren eigenen Text hinzuzufügen. </p>
+    </div>
+    <div class="contactContent2">
+        <p>Bei Fragen erreichen Sie uns</p>
 
         <p>von 8:30 bis 15:30 Uhr unter +49 (0) 456 7890</p>
-    
+
         <p>Lindenstraße 507</p>
-    
-        <p>10555 Berlin</p> 
-    
+
+        <p>10555 Berlin</p>
+
         <hr>
-    
+
         <p>Tel.: +49 (0) 456 7890</p>
-    
+
         <p>E-Mail-Adresse: info@website.com</p>
-        </div>
+    </div>
 </div>
 
 <?php Layout::Footer();

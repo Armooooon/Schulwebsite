@@ -1,91 +1,91 @@
 <?php Layout::Header("Schulprogramm"); ?>
 <!-- Islam Praktikant -->
 <div style="padding-top:120px" class="containerspr" style="display: block;">
-        <section class=kopf>
-        </section>
-        <section class="hintergrund">
+    <section class=kopf>
+    </section>
+    <section class="hintergrund">
 
         <h1 class="h1spr">Unser Leitbild</h1>
 
-    <div class="leitbild">
-        
-    <h5 >"Das Fundament einer guten Schule ist das gleiche
-        wie das Fundament
-    </h5> 
-    
-    <h5 > alles Menschenglücks und nichts 
-        anderes als wahre Weisheit des Lebens."
-    </h5>
+        <div class="leitbild">
 
-    <p >
-        <i >Johann Heinrich Pestalozzi</i> 
-    </p>
+            <h5>"Das Fundament einer guten Schule ist das gleiche
+                wie das Fundament
+            </h5>
 
-    <h4 >
-    <strong>
-    Lernen mit...
-    </strong>
-    </h4>
-</div>
+            <h5> alles Menschenglücks und nichts
+                anderes als wahre Weisheit des Lebens."
+            </h5>
+
+            <p>
+                <i>Johann Heinrich Pestalozzi</i>
+            </p>
+
+            <h4>
+                <strong>
+                    Lernen mit...
+                </strong>
+            </h4>
+        </div>
 
 
-<div class="containerspr">
+        <div class="containerspr">
 
-<div class="image-wrapper">
+            <div class="image-wrapper">
 
-<img src="./IMG/head.png" alt="Kopf" class="image">
+                <img src="./IMG/head.png" alt="Kopf" class="image">
 
-    <p class="caption">Kenntnisse, Fähigkeiten 
-        & Fertigkeiten <br>vermitteln</p>
-    <p class="caption">Vermittlung des 
-        europäischen Gedankens</p>
-    <p class="caption">Fitmachen der
-        Schüler/innen für den für sie <br>
-        möglichen Schulabschluss </p>
-        
+                <p class="caption">Kenntnisse, Fähigkeiten
+                    & Fertigkeiten <br>vermitteln</p>
+                <p class="caption">Vermittlung des
+                    europäischen Gedankens</p>
+                <p class="caption">Fitmachen der
+                    Schüler/innen für den für sie <br>
+                    möglichen Schulabschluss </p>
 
-</div>
 
-<span class="plus-sign">+</span>
+            </div>
 
-<div class="image-wrapper">
+            <span class="plus-sign">+</span>
 
-<img src="./IMG/heart.png" alt="Herz" class="image">
+            <div class="image-wrapper">
 
-    <p class="caption">Gemeinschafts- & 
-        Teamfähikeit stärken</p>
-    <p class="caption">enge Kooperation 
-        mit den Eltern & der
-        angeschlossenen Grundschule <br>
-        -längeres gemeinsames Lernen</p>
-    <p class="caption">Europaschule- <br>
-        Zusammenarbeit mit Partnerschulen 
-        in Polen & Litauen</p>
+                <img src="./IMG/heart.png" alt="Herz" class="image">
 
-</div>
+                <p class="caption">Gemeinschafts- &
+                    Teamfähikeit stärken</p>
+                <p class="caption">enge Kooperation
+                    mit den Eltern & der
+                    angeschlossenen Grundschule <br>
+                    -längeres gemeinsames Lernen</p>
+                <p class="caption">Europaschule- <br>
+                    Zusammenarbeit mit Partnerschulen
+                    in Polen & Litauen</p>
 
-<span class="plus-sign">+</span>
+            </div>
 
-<div class="image-wrapper">
+            <span class="plus-sign">+</span>
 
-<img src="./IMG/hands.png" alt="Hände" class="image" style="padding-top:3rem;">
+            <div class="image-wrapper">
 
-    <p style="padding-top:1rem;"class="caption">selbstständiges Arbeiten fördern & fordern</p>
-    <p class="caption">Stärkung der Methodenkompetenz</p>
-    <p class="caption">Produktives lernen</p>
-    <p class="caption">umfangreiche berufsvorbereitende Aktiviäten</p>
-    <p class="caption">intensive Nutzung moderner Medien</p>
-</div>
+                <img src="./IMG/hands.png" alt="Hände" class="image" style="padding-top:3rem;">
 
-</div>
-<div class="leitbild">
-    <h4 >
-    <strong>
-    =Verantwortung für sich, die Lerngemeinschaft
-und die Gesellschaft übernehmen 
-    </strong>
-    </h4>
-</div>
+                <p style="padding-top:1rem;" class="caption">selbstständiges Arbeiten fördern & fordern</p>
+                <p class="caption">Stärkung der Methodenkompetenz</p>
+                <p class="caption">Produktives lernen</p>
+                <p class="caption">umfangreiche berufsvorbereitende Aktiviäten</p>
+                <p class="caption">intensive Nutzung moderner Medien</p>
+            </div>
+
+        </div>
+        <div class="leitbild">
+            <h4>
+                <strong>
+                    =Verantwortung für sich, die Lerngemeinschaft
+                    und die Gesellschaft übernehmen
+                </strong>
+            </h4>
+        </div>
 </div>
 </div>
 
@@ -97,54 +97,55 @@ und die Gesellschaft übernehmen
 
 
 <style>
-.h1spr {
-    text-align: center;
-}
-.leitbild {
-    text-align: center;
-}
-.hintergrund {
-    background-color: var(--color2);
-    border-radius: 8px;
-    padding: 30px;
-    margin-bottom: 30px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
+    .h1spr {
+        text-align: center;
+    }
 
-.kopf{
-    background-color: var(--color1);
-    padding: 50px 0;
-    text-align: center;
-    color: #fff;
-}
+    .leitbild {
+        text-align: center;
+    }
 
+    .hintergrund {
+        background-color: var(--color2);
+        border-radius: 8px;
+        padding: 30px;
+        margin-bottom: 30px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
 
-.containerspr {
-display: flex;
-justify-content: center;
-align-items: center;
-flex-wrap: wrap;
-}
-
-.image-wrapper {
-display: flex;
-flex-direction: column;
-align-items: center;
-margin: 20px;
-}
+    .kopf {
+        background-color: var(--color1);
+        padding: 50px 0;
+        text-align: center;
+        color: #fff;
+    }
 
 
+    .containerspr {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
 
-.plus-sign {
-font-size: 40px;
-margin: 20px;
-}
+    .image-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
 
-.caption {
-text-align: center;
 
-}
 
+    .plus-sign {
+        font-size: 40px;
+        margin: 20px;
+    }
+
+    .caption {
+        text-align: center;
+
+    }
 </style>
 
 

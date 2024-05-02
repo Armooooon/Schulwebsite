@@ -23,7 +23,3 @@ Layout::Header("Login", $cssFiles);
 </div>
 
 <?php Layout::Footer(); ?>
-
-
-
-

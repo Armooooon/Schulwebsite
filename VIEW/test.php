@@ -8,6 +8,7 @@ $adressen = $controlleradresse->getAllAdressen();
 
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,29 +16,31 @@ $adressen = $controlleradresse->getAllAdressen();
     <!-- Hier könntest du CSS-Verknüpfungen für das Styling der Tabelle einfügen -->
     <!-- Beispiel: <link rel="stylesheet" href="styles.css"> -->
 </head>
+
 <body>
 
-<h1>Adressen</h1>
+    <h1>Adressen</h1>
 
-<!-- HTML-Tabelle zur Anzeige der Daten -->
-<table>
-    <tr>
-        <th>ID</th>
-        <th>Straße</th>
-        <th>PLZ</th>
-        <th>Ort</th>
-    </tr>
-
-    <!-- Durchlaufen der Adressdaten und Anzeigen in der Tabelle -->
-    <?php foreach ($adressen as $adresse): ?>
+    <!-- HTML-Tabelle zur Anzeige der Daten -->
+    <table>
         <tr>
-            <td><?php echo $adresse['idadresse']; ?></td>
-            <td><?php echo $adresse['strasse']; ?></td>
-            <td><?php echo $adresse['plz']; ?></td>
-            <td><?php echo $adresse['ort']; ?></td>
+            <th>ID</th>
+            <th>Straße</th>
+            <th>PLZ</th>
+            <th>Ort</th>
         </tr>
-    <?php endforeach; ?>
-</table>
+
+        <!-- Durchlaufen der Adressdaten und Anzeigen in der Tabelle -->
+        <?php foreach ($adressen as $adresse) : ?>
+            <tr>
+                <td><?php echo $adresse['idadresse']; ?></td>
+                <td><?php echo $adresse['strasse']; ?></td>
+                <td><?php echo $adresse['plz']; ?></td>
+                <td><?php echo $adresse['ort']; ?></td>
+            </tr>
+        <?php endforeach; ?>
+    </table>
 
 </body>
+
 </html>
