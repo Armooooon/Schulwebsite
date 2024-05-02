@@ -22,7 +22,7 @@
     Die Essenausgabe findet im Imbisscontainer auf dem Schulhof von 11.00 Uhr bis 13.00 Uhr statt</p>
 </div>
 
-<div class="container" style="margin-bottom: 25px;">
+<div class="container d-flex justify-content-center" style="margin-bottom: 25px;">
   <?php foreach ($fileList as $file) : ?>
     <div class="card align-items-center" style="text-align: center; margin-right: 25px;">
       <img src="IMG/pdf_icon.png" class="card-img-top" style="width: 150px; height: 150px;" alt="...">
