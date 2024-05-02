@@ -75,6 +75,7 @@ Layout::Header("foerderverein");
             <p class="textSU">Sie können auch die Satzung des Fördervereins einsehen.</p>
           </div>
           <!-- Button für die Satzung -->
+          <!-- Samir Abdul  -->
           <div class="pizza d-flex justify-content-around">
             <button class="accent-button" onclick="window.open('link_zum_antrag', '_blank')">Antrag herunterladen</button>
             <button class="accent-button" onclick="window.open('link_zum_antrag', '_blank')">Satzung einsehen</button>
