@@ -3,7 +3,7 @@
 <img class="LandingpagePicture" src="IMG/classroom.jpg" alt="Classroom-picture">
 
 <!---Start grid icons(Nick)--->
-<div class="container text-center" style="padding-top: 2rem; " >
+<div class="container text-center d-flex justify-content-center" style="padding-top: 2rem; " >
   <div class="row">
     <div class="col" style="padding: 20px;">
     <a href="https://www.Youtube.com/"> <img src="./IMG/itslearning.png" style=" width: 250px; height: 250px;" alt=""></a>
@@ -31,7 +31,7 @@
 
 <!-------Start Aktuelles(Nick)------->
 <h2 style="text-align: center;">Aktuelles</h2>
-<div class="container">
+<div class="container d-flex justify-content-center">
   <div class="aktuelles-container" style="width: 400px;">
     <img src="./IMG/lehrer.webp" style="width: 250px; margin-left: 50px;">
     <div style="text-align: center;">

@@ -29,6 +29,7 @@ h1 {
   filter: brightness(90%)
 }
 
+/* bitte "d-flex justify-content-center" stattdessen nutzen */
 /* .container {
   display: flex;
   justify-content: center;
