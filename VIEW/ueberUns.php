@@ -36,8 +36,8 @@
     <div class="row">
       <!-- Header with centered text -->
       <h1 class="text-center">Grußwort von Dr. Melanie Brüchner</h1>
-            <!-- Column with padding -->
-            <div class="col" style="padding: 20px;">
+      <!-- Column with padding -->
+      <div class="col" style="padding: 20px;">
         <!-- Image with fixed width and alt text -->
         <img src="./IMG/FrBruechner.jpg" style="padding:2px; width: 100%; border: 3px solid var(--color1);" alt="Foto der Schulleiterin">
       </div>
@@ -60,6 +60,33 @@
 
     </div>
   </section>
+  <hr>
+  <section>
+    <div class="row text-center" style="padding: 1rem;">
+      <!-- Icon 1 -->
+      <div class="col">
+        <i class="bi bi-people-fill" style="font-size: 2rem;"></i>
+        <p>Zusammenarbeit und Kommunikation</p>
+        <!-- <p>Besonders wichtig ist mir eine gute, vertrauensvolle und wertschätzende Zusammenarbeit und Kommunikation zwischen Lehrkräften, Schülerinnen und Schülern und Eltern. Dabei sollte das Lern- und Arbeitsklima geprägt sein von gegenseitiger Wertschätzung, Hilfsbereitschaft, Transparenz und Respekt, ein Lern- und Arbeitsklima, in dem sich alle verwirklichen und wohlfühlen können.</p> -->
+      </div>
+      <!-- Icon 2 -->
+      <div class="col">
+        <i class="bi bi-hand-thumbs-up-fill" style="font-size: 2rem;"></i>
+        <p>Förderung und Unterstützung</p>
+      </div>
+      <!-- Icon 3 -->
+      <div class="col">
+        <i class="bi bi-house-heart-fill" style="font-size: 2rem;"></i>
+        <p>Werte und Gemeinschaft</p>
+      </div>
+      <!-- Icon 4 -->
+      <div class="col">
+        <i class="bi bi-lightbulb-fill" style="font-size: 2rem;"></i>
+        <p>Innovation und Entwicklung</p>
+      </div>
+    </div>
+  </section>
+
 
 </div>
 <?php Layout::Footer();
