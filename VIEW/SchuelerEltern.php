@@ -29,102 +29,87 @@
 </section>
 <hr>
 <section>
-
-  <div class="container" style="padding-top: 2rem; gap:10px; margin-top:2rem;">
+  <div class="container pt-2">
     <div class="row">
       <h1 class="text-center">FAQ</h1>
-      <div class="col" style="padding: 20px;">
-
+    </div>
+    <div class="accordion" id="faq-accordion">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Lohnt sich diese Ausbildung?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faq-accordion">
+          <div class="accordion-body">
+            Sie würde sich lohnen, wenn wir bezahlt werden würden.
+          </div>
+        </div>
       </div>
-
-    </div>
-
-  </div>
-
-  <style>
-    {
-      font-family: Arial, sans-serif;
-      background-color: #f5f5f5;
-      margin: 0;
-      padding: 20px;
-    }
-
-    .grid-container {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-gap: 20px;
-    }
-
-    .grid-item {
-      background-color: #FFDAB9;
-      border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-      overflow: hidden;
-      transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
-    }
-
-    .grid-item:hover {
-      transform: translateY(-5px);
-      background-color: #FFDAB9;
-      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-    }
-
-    .question {
-      padding: 20px;
-      font-weight: bold;
-      text-align: center;
-      border-bottom: 1px solid #ccc;
-    }
-
-    .answer {
-      padding: 20px;
-      text-align: center;
-      display: none;
-    }
-
-    .grid-item.active .answer {
-      display: block;
-    }
-  </style>
-
-  <div class="grid-container">
-    <div class="grid-item">
-      <div class="question">Lohnt sich diese Ausbildung?</div>
-      <div class="answer">Sie würde sich lohnen, wenn wir bezahlt werden würden.</div>
-    </div>
-    <div class="grid-item">
-      <div class="question">Frage 2</div>
-      <div class="answer">Antwort 2</div>
-    </div>
-    <div class="grid-item">
-      <div class="question">Frage 3</div>
-      <div class="answer">Antwort 3</div>
-    </div>
-    <div class="grid-item">
-      <div class="question">Frage 4</div>
-      <div class="answer">Antwort 4</div>
-    </div>
-    <div class="grid-item">
-      <div class="question">Frage 5</div>
-      <div class="answer">Antwort 5</div>
-    </div>
-    <div class="grid-item">
-      <div class="question">Frage 6</div>
-      <div class="answer">Antwort 6</div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Frage 2
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faq-accordion">
+          <div class="accordion-body">
+            Antwort 2
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Frage 3
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faq-accordion">
+          <div class="accordion-body">
+            Antwort 3
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            Frage 4
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faq-accordion">
+          <div class="accordion-body">
+            Antwort 4
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFive">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            Frage 5
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faq-accordion">
+          <div class="accordion-body">
+            Antwort 5
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSix">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            Frage 6
+          </button>
+        </h2>
+        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faq-accordion">
+          <div class="accordion-body">
+            Antwort 6
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-
-  <script>
-    const gridItems = document.querySelectorAll('.grid-item');
-
-    gridItems.forEach(item => {
-      item.addEventListener('click', () => {
-        item.classList.toggle('active');
-      });
-    });
-  </script>
-
 </section>
+
 <hr>
 <section>
 
