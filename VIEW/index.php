@@ -32,15 +32,15 @@
 <!-------Start Aktuelles(Nick)------->
 <h2 style="text-align: center;">Aktuelles</h2>
 <div class="container d-flex justify-content-center">
-  <div class="aktuelles-container" style="width: 400px;">
-    <img src="./IMG/lehrer.webp" style="width: 250px; margin-left: 50px;">
+  <div class="aktuelles-container" style="width: 40rem;">
+    <img src="./IMG/lehrer.webp" style="width: 25rem; margin-left: 5rem;">
     <div style="text-align: center;">
       <h4>Herzlich willkommen auf unserer Seite.</h4>
       <p>Lorem Ipsumb blahblahblablahblahblahblahblahblahblahblahblahblahblah<br>ahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah<br>blahblahblahblahblahblahblahblahblahblahblahblah</p>
     </div>
     <hr>
   </div>
-  <div class="aktuelles-container" style="width: 400px;">
+  <div class="aktuelles-container" style="width: 40rem;">
     <h3>Aktuelle Veranstaltungen</h3>
     <p>Rate mal.. Ja! Hier sind aktuelle Veranstaltungen! WoopWoop!</p>
   </div>
